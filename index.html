@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0A0C13">
+<meta name="theme-color" content="#050805">
 
 <title>StarCraft România — comunitatea de StarCraft II</title>
 <meta name="description" content="Comunitatea de StarCraft II din România: Discord activ, meciuri 2v2 în fiecare seară, ladder, turnee interne și clasamente proprii. Intrarea e liberă.">
@@ -154,19 +154,20 @@
 
 <style>
   :root {
-    /* Deliberate single-theme design: the void, lit by Xel'Naga gold. */
-    --void:      #0A0C13;
-    --void-deep: #06070C;
-    --hull:      #131725;
-    --hull-2:    #1A1F31;
-    --line:      #262C42;
-    --gold:      #D4A73C;
-    --gold-lit:  #F0D492;
-    --gold-dim:  #8A6E24;
-    --khaydarin: #4FA6B8;
-    --text:      #C3C9D9;
-    --muted:     #7F879E;
-    --white:     #EEF1F8;
+    /* Brood War: consola verde fosforescent pe negru. Temă unică, asumată. */
+    --void:      #050805;
+    --void-deep: #020402;
+    --hull:      #0A100C;
+    --hull-2:    #111A13;
+    --line:      #1E2B21;
+    --green:     #3BE06B;
+    --green-lit: #9BFFB8;
+    --green-dim: #1B7A3C;
+    --phosphor:  #5BC47C;
+    --amber:     #D9A441;
+    --text:      #B9D4BF;
+    --muted:     #74907C;
+    --white:     #E6F5E9;
 
     --display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
     --body: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -189,12 +190,12 @@
     overflow-x: hidden;
   }
 
-  ::selection { background: var(--gold); color: var(--void-deep); }
+  ::selection { background: var(--green); color: var(--void-deep); }
 
-  a { color: var(--khaydarin); text-decoration: none; }
-  a:hover { color: var(--gold-lit); text-decoration: underline; text-underline-offset: 3px; }
+  a { color: var(--phosphor); text-decoration: none; }
+  a:hover { color: var(--green-lit); text-decoration: underline; text-underline-offset: 3px; }
   a:focus-visible, button:focus-visible {
-    outline: 2px solid var(--gold);
+    outline: 2px solid var(--green);
     outline-offset: 3px;
     border-radius: 2px;
   }
@@ -225,8 +226,8 @@
     overflow: hidden;
     border-bottom: 1px solid var(--line);
     background:
-      radial-gradient(120% 90% at 50% 8%, rgba(212,167,60,0.13), transparent 55%),
-      radial-gradient(80% 60% at 82% 92%, rgba(79,166,184,0.09), transparent 60%),
+      radial-gradient(120% 90% at 50% 8%, rgba(59,224,107,0.13), transparent 55%),
+      radial-gradient(80% 60% at 82% 92%, rgba(91,196,124,0.09), transparent 60%),
       linear-gradient(180deg, var(--void-deep), var(--void));
   }
 
@@ -246,7 +247,7 @@
     font-size: 12px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--green);
     display: flex;
     align-items: center;
     gap: 12px;
@@ -255,7 +256,7 @@
     content: "";
     flex: 1;
     height: 1px;
-    background: linear-gradient(90deg, var(--gold-dim), transparent);
+    background: linear-gradient(90deg, var(--green-dim), transparent);
     max-width: 220px;
   }
 
@@ -266,7 +267,7 @@
     margin-block: 22px 20px;
   }
   h1 .lit {
-    background: linear-gradient(100deg, var(--gold-lit), var(--gold) 55%, var(--gold-dim));
+    background: linear-gradient(100deg, var(--green-lit), var(--green) 55%, var(--green-dim));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -291,8 +292,8 @@
     font-size: 1rem;
     letter-spacing: 0.02em;
     padding: 14px 26px;
-    border: 1px solid var(--gold);
-    background: var(--gold);
+    border: 1px solid var(--green);
+    background: var(--green);
     color: var(--void-deep);
     cursor: pointer;
     transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
@@ -301,21 +302,21 @@
     gap: 10px;
   }
   .btn:hover {
-    background: var(--gold-lit);
+    background: var(--green-lit);
     color: var(--void-deep);
     text-decoration: none;
     transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(212,167,60,0.25);
+    box-shadow: 0 10px 30px rgba(59,224,107,0.25);
   }
   .btn.ghost {
     background: transparent;
-    color: var(--gold-lit);
+    color: var(--green-lit);
     border-color: var(--line);
   }
   .btn.ghost:hover {
-    background: rgba(212,167,60,0.08);
-    border-color: var(--gold);
-    color: var(--gold-lit);
+    background: rgba(59,224,107,0.08);
+    border-color: var(--green);
+    color: var(--green-lit);
   }
 
   .facts {
@@ -335,7 +336,7 @@
     font-family: var(--display);
     font-size: 1.7rem;
     font-weight: 700;
-    color: var(--gold-lit);
+    color: var(--green-lit);
     line-height: 1.1;
     font-variant-numeric: tabular-nums;
   }
@@ -384,7 +385,7 @@
     font-family: var(--display);
     font-size: 2.2rem;
     font-weight: 700;
-    color: var(--gold-dim);
+    color: var(--green-dim);
     line-height: 1;
     font-variant-numeric: tabular-nums;
   }
@@ -421,7 +422,7 @@
     font-size: 11px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--green);
   }
   .cell p { font-size: 0.94rem; color: var(--muted); }
 
@@ -439,7 +440,7 @@
     font-size: 11px;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--green);
     text-align: left;
     padding: 14px 20px;
     background: var(--hull-2);
@@ -453,11 +454,11 @@
     color: var(--muted);
   }
   tbody tr:last-child td { border-bottom: none; }
-  tbody tr:nth-child(odd) { background: rgba(19,23,37,0.55); }
-  tbody tr:hover { background: rgba(212,167,60,0.05); }
+  tbody tr:nth-child(odd) { background: rgba(10,16,12,0.55); }
+  tbody tr:hover { background: rgba(59,224,107,0.05); }
   td code {
     font-family: var(--mono);
-    color: var(--gold-lit);
+    color: var(--green-lit);
     font-size: 0.92em;
     white-space: nowrap;
   }
@@ -467,8 +468,8 @@
     font-size: 10px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--khaydarin);
-    border: 1px solid rgba(79,166,184,0.35);
+    color: var(--phosphor);
+    border: 1px solid rgba(91,196,124,0.35);
     padding: 2px 7px;
     white-space: nowrap;
   }
@@ -502,8 +503,8 @@
     color: var(--muted);
     font-variant-numeric: tabular-nums;
   }
-  .rung:last-child { background: linear-gradient(180deg, rgba(212,167,60,0.16), var(--hull)); }
-  .rung:last-child b { color: var(--gold-lit); }
+  .rung:last-child { background: linear-gradient(180deg, rgba(59,224,107,0.16), var(--hull)); }
+  .rung:last-child b { color: var(--green-lit); }
 
   .ladder-label {
     font-family: var(--mono);
@@ -518,9 +519,9 @@
   /* ---------- CROWN PANEL ---------- */
 
   .crown {
-    border: 1px solid var(--gold-dim);
+    border: 1px solid var(--green-dim);
     background:
-      radial-gradient(80% 120% at 15% 0%, rgba(212,167,60,0.12), transparent 60%),
+      radial-gradient(80% 120% at 15% 0%, rgba(59,224,107,0.12), transparent 60%),
       var(--hull);
     padding: 34px 34px 36px;
     display: grid;
@@ -536,7 +537,7 @@
     display: grid;
     gap: 8px;
   }
-  .crown li::marker { color: var(--gold); }
+  .crown li::marker { color: var(--green); }
 
   /* ---------- FAQ ---------- */
 
@@ -560,7 +561,7 @@
   summary::after {
     content: "+";
     font-family: var(--mono);
-    color: var(--gold);
+    color: var(--green);
     font-size: 1.3rem;
     line-height: 1;
     flex-shrink: 0;
@@ -572,6 +573,158 @@
     font-size: 0.96rem;
   }
   details > div p + p { margin-top: 12px; }
+
+
+  /* ---------- LIVE: STAREA SERVERULUI ---------- */
+
+  .live {
+    border: 1px solid var(--line);
+    background:
+      radial-gradient(90% 140% at 0% 0%, rgba(59,224,107,0.07), transparent 62%),
+      var(--hull);
+  }
+  .live-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 22px 26px;
+    border-bottom: 1px solid var(--line);
+    background: var(--hull-2);
+  }
+  .live-count { display: flex; align-items: baseline; gap: 12px; }
+  .live-count b {
+    font-family: var(--display);
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--green-lit);
+    font-variant-numeric: tabular-nums;
+  }
+  .live-lbl {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 0 0 rgba(59,224,107,0.6);
+    align-self: center;
+    flex-shrink: 0;
+    animation: pulse 2.4s ease-out infinite;
+  }
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(59,224,107,0.55); }
+    70%  { box-shadow: 0 0 0 10px rgba(59,224,107,0); }
+    100% { box-shadow: 0 0 0 0 rgba(59,224,107,0); }
+  }
+  .btn.small { padding: 10px 20px; font-size: 0.92rem; }
+
+  .live-body { padding: 24px 26px; display: grid; gap: 26px; }
+  .live-msg { color: var(--muted); font-size: 0.95rem; }
+
+  .live-h {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 14px;
+  }
+
+  .roster { display: flex; flex-wrap: wrap; gap: 10px; }
+  .who {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 14px 8px 8px;
+    border: 1px solid var(--line);
+    background: var(--void);
+    min-width: 0;
+  }
+  .who img, .who .ini {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    background: var(--hull-2);
+    color: var(--green);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+  .who { max-width: 100%; }
+  .who span {
+    font-size: 0.9rem;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+  .who i {
+    font-style: normal;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 18ch;
+    min-width: 0;
+  }
+  .who::before {
+    content: "";
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    flex-shrink: 0;
+  }
+  .who[data-s="idle"]::before { background: var(--amber); }
+  .who[data-s="dnd"]::before  { background: #C8503C; }
+
+  .rooms { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .room {
+    background: var(--void);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 0.92rem;
+  }
+  .room b { font-weight: 500; color: var(--text); }
+  .room[data-busy="1"] { background: var(--hull-2); }
+  .room[data-busy="1"] b { color: var(--green-lit); }
+  .room em {
+    font-style: normal;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: right;
+  }
+  .room[data-busy="1"] em { color: var(--green); }
+
+  .live-foot {
+    padding: 14px 26px 18px;
+    border-top: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    max-width: none;
+  }
+
+  .live[data-state="off"] .dot { animation: none; background: var(--muted); }
+  .live[data-state="off"] .live-count b { color: var(--muted); }
 
   /* ---------- FOOTER ---------- */
 
@@ -593,7 +746,7 @@
     font-size: 11px;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--green);
     margin: 0 0 14px;
     font-weight: 500;
   }
@@ -649,6 +802,29 @@
 </header>
 
 <main>
+
+<section id="acum">
+  <div class="shell">
+    <div class="sec-head">
+      <p class="eyebrow">Acum pe server</p>
+      <h2>Cine e online chiar în clipa asta</h2>
+    </div>
+    <div class="live" id="live" data-state="loading">
+      <div class="live-top">
+        <div class="live-count">
+          <span class="dot"></span>
+          <b id="live-n">—</b>
+          <span class="live-lbl" id="live-lbl">jucători online</span>
+        </div>
+        <a class="btn small" href="https://discord.gg/ZuGDmpeRm3" rel="noopener">Intră pe Discord</a>
+      </div>
+      <div class="live-body" id="live-body">
+        <p class="live-msg">Se citește starea serverului…</p>
+      </div>
+      <p class="live-foot" id="live-foot">Date live de la Discord</p>
+    </div>
+  </div>
+</section>
 
 <section id="comunitate">
   <div class="shell">
@@ -1052,8 +1228,8 @@
         ctx.beginPath();
         ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
         ctx.fillStyle = s.gold
-          ? 'rgba(240,212,146,' + tw + ')'
-          : 'rgba(195,201,217,' + tw * 0.8 + ')';
+          ? 'rgba(155,255,184,' + tw + ')'
+          : 'rgba(185,212,191,' + tw * 0.8 + ')';
         ctx.fill();
       }
       if (!reduce) raf = requestAnimationFrame(draw);
@@ -1080,6 +1256,100 @@
     });
 
     start();
+  })();
+</script>
+
+<script>
+  (function () {
+    // Botii serverului — nu-i numaram ca jucatori. Adauga aici daca mai apar.
+    var BOTI = ['carl-bot', 'curierul xel\'naga', 'dyno', 'maki', 'sc2 pulse', 'tourney bot'];
+    var API = 'https://discord.com/api/guilds/1540003384042590339/widget.json';
+
+    var box = document.getElementById('live');
+    var nEl = document.getElementById('live-n');
+    var lblEl = document.getElementById('live-lbl');
+    var bodyEl = document.getElementById('live-body');
+    var footEl = document.getElementById('live-foot');
+    if (!box) return;
+
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+
+    function offline() {
+      box.setAttribute('data-state', 'off');
+      nEl.textContent = '—';
+      lblEl.textContent = 'stare indisponibilă';
+      bodyEl.innerHTML = '<p class="live-msg">Nu pot citi serverul chiar acum. ' +
+        'Nu înseamnă că e gol — intră și vezi singur.</p>';
+      footEl.textContent = 'Reîncerc în 60 de secunde';
+    }
+
+    function render(d) {
+      var membri = d.members || [];
+      var canale = (d.channels || []).slice().sort(function (a, b) { return a.position - b.position; });
+
+      var oameni = membri.filter(function (m) {
+        return BOTI.indexOf((m.username || '').toLowerCase()) === -1;
+      });
+      var boti = membri.length - oameni.length;
+
+      box.setAttribute('data-state', oameni.length ? 'on' : 'empty');
+      nEl.textContent = oameni.length;
+      lblEl.textContent = oameni.length === 1 ? 'jucător online' : 'jucători online';
+
+      var html = '';
+
+      if (oameni.length) {
+        html += '<div><p class="live-h">Pe server</p><div class="roster">' +
+          oameni.map(function (m) {
+            var nume = esc(m.username);
+            var joc = m.game && m.game.name ? '<i>' + esc(m.game.name) + '</i>' : '';
+            var av = m.avatar_url
+              ? '<img src="' + esc(m.avatar_url) + '" alt="" loading="lazy" width="28" height="28" ' +
+                'onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),' +
+                '{className:\'ini\',textContent:' + JSON.stringify(nume.charAt(0).toUpperCase()) + '}))">'
+              : '<span class="ini">' + esc(nume.charAt(0).toUpperCase()) + '</span>';
+            return '<span class="who" data-s="' + esc(m.status || 'online') + '">' +
+              av + '<span>' + nume + '</span>' + joc + '</span>';
+          }).join('') + '</div></div>';
+      } else {
+        html += '<p class="live-msg">Nimeni online chiar acum. Fii tu primul — de obicei ' +
+          'lumea se strânge seara, după ora 20.</p>';
+      }
+
+      if (canale.length) {
+        var ocupat = {};
+        membri.forEach(function (m) {
+          if (m.channel_id) ocupat[m.channel_id] = (ocupat[m.channel_id] || 0) + 1;
+        });
+        html += '<div><p class="live-h">Camere de voce</p><div class="rooms">' +
+          canale.map(function (c) {
+            var n = ocupat[c.id] || 0;
+            return '<div class="room" data-busy="' + (n ? 1 : 0) + '">' +
+              '<b>' + esc(c.name) + '</b><em>' +
+              (n ? n + (n === 1 ? ' persoană' : ' persoane') : 'liberă') +
+              '</em></div>';
+          }).join('') + '</div></div>';
+      }
+
+      bodyEl.innerHTML = html;
+      footEl.textContent = 'Date live de la Discord' +
+        (boti > 0 ? ' · plus ' + boti + (boti === 1 ? ' bot' : ' boți') : '') +
+        ' · se reîmprospătează la 60 s';
+    }
+
+    function tick() {
+      fetch(API, { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+        .then(render)
+        .catch(offline);
+    }
+
+    tick();
+    setInterval(function () { if (!document.hidden) tick(); }, 60000);
   })();
 </script>
 </body>
