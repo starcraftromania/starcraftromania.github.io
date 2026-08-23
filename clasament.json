@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-23T16:41:36.357Z",
+  "generat": "2026-08-23T16:51:36.362Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -14,7 +14,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 319,
+      "credite": 339,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
@@ -22,7 +22,7 @@
     {
       "loc": 3,
       "nume": "Snac",
-      "credite": 187,
+      "credite": 207,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -37,17 +37,17 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 319
+      "credite": 339
     },
     {
       "loc": 3,
       "nume": "Snac",
-      "credite": 187
+      "credite": 207
     },
     {
       "loc": 4,
       "nume": "fluxveins89",
-      "credite": 79
+      "credite": 99
     },
     {
       "loc": 5,
@@ -83,7 +83,7 @@
   "ladder": [],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 1263,
+    "inCirculatie": 1323,
     "conturiLegate": 0,
     "piloti": 11
   }
