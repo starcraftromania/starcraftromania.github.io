@@ -1,6 +1,5 @@
-<!doctype html>
-<html lang="ro">
-<head>
+<!DOCTYPE html>
+<html lang="ro"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
@@ -148,8 +147,8 @@
 }
 </script>
 
-<link rel="preload" as="font" type="font/woff2" href="/fonts/ChakraPetch-latin-ext-9cc6078d.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/ChakraPetch-latin-d09f6c28.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/ChakraPetch-latin-ext-9cc6078d.woff2" crossorigin="">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/ChakraPetch-latin-d09f6c28.woff2" crossorigin="">
 <link rel="stylesheet" href="/fonts/fonts.css">
 
 <style>
@@ -777,7 +776,79 @@
     * { animation: none !important; transition: none !important; }
   }
 </style>
-</head>
+<style id="cx-stil">
+/* ── Vitrina Cetatii ─────────────────────────────────────────────── */
+body>header.hero{min-height:0!important;padding:34px 0 16px!important;display:block!important}
+body>header.hero .shell{padding-top:0!important;padding-bottom:0!important}
+body>header.hero h1{font-size:clamp(1.9rem,4.4vw,2.9rem)!important;line-height:1.04!important;margin:0 0 .28em!important}
+body>header.hero .eyebrow{margin:0 0 .55em!important}
+body>header.hero .lede{font-size:.94rem!important;line-height:1.55!important;margin:0 0 .95em!important;max-width:58ch}
+body>header.hero .cta-row{margin:0 0 14px!important}
+body>header.hero .btn{padding:.62em 1.15em!important;font-size:.86rem!important}
+body>header.hero .facts{margin:0!important;padding-top:12px!important;gap:22px!important}
+body>header.hero .facts b{font-size:1.05rem!important}
+body>header.hero .facts span{font-size:.62rem!important}
+@media(max-width:700px){body>header.hero .facts{display:none!important}}
+.cx{padding:8px 0 34px}
+.cx-in{width:min(1180px,92vw);margin:0 auto}
+.cx-top{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:0 0 14px}
+.cx-h{font-family:var(--display);font-size:clamp(1.1rem,2.4vw,1.5rem);letter-spacing:.06em;text-transform:uppercase;color:var(--green-lit);margin:0}
+.cx-sub{margin:0;color:var(--muted);font-size:.86rem}
+.cx-podium{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:end}
+@media(max-width:760px){.cx-podium{grid-template-columns:1fr}}
+.cx-k{background:linear-gradient(180deg,var(--hull-2),var(--hull));border:1px solid var(--line);border-radius:14px;padding:18px 16px 16px;text-align:center;position:relative;overflow:hidden}
+.cx-k:before{content:"";position:absolute;inset:0 0 auto;height:2px;background:var(--green-dim)}
+.cx-k--1{border-color:#8a6d1f;padding-top:26px;padding-bottom:22px}
+.cx-k--1:before{background:linear-gradient(90deg,#8a6d1f,#F2C94C,#8a6d1f);height:3px}
+.cx-k--2:before{background:linear-gradient(90deg,#5b6570,#C7D0D8,#5b6570)}
+.cx-k--3:before{background:linear-gradient(90deg,#6b4a2a,#CD7F32,#6b4a2a)}
+@media(min-width:761px){.cx-k--2{order:1}.cx-k--1{order:2}.cx-k--3{order:3}}
+.cx-k-emo{font-size:1.7rem;line-height:1}
+.cx-k--1 .cx-k-emo{font-size:2.3rem}
+.cx-k-tit{font-family:var(--display);text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--muted);margin:.5em 0 .15em}
+.cx-k--1 .cx-k-tit{color:#F2C94C}
+.cx-k-nume{font-family:var(--display);font-weight:700;font-size:clamp(1.15rem,3.2vw,1.7rem);color:var(--white);line-height:1.15;word-break:break-word}
+.cx-k--1 .cx-k-nume{font-size:clamp(1.4rem,4vw,2.15rem)}
+.cx-k-cred{font-family:var(--mono);color:var(--green);font-size:1rem;margin-top:.2em}
+.cx-k-sub{color:var(--muted);font-size:.76rem;margin-top:.5em;font-style:italic}
+.cx-grid{display:grid;grid-template-columns:1fr 1fr .8fr;gap:14px;margin-top:14px;align-items:start}
+@media(max-width:980px){.cx-grid{grid-template-columns:1fr}}
+.cx-card{background:var(--hull);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.cx-card h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-size:.76rem;color:var(--muted);margin:0 0 10px}
+.cx-tab-num{font-family:var(--mono);font-size:.86rem;width:100%;border-collapse:collapse}
+.cx-tab-num td{padding:5px 0;border-bottom:1px solid rgba(30,43,33,.7)}
+.cx-tab-num tr:last-child td{border-bottom:0}
+.cx-tab-num .l{color:var(--muted);width:2.2em}
+.cx-tab-num .n{color:var(--text)}
+.cx-tab-num .v{color:var(--green);text-align:right;white-space:nowrap}
+.cx-tab-num .m{color:var(--muted);text-align:right;font-size:.78rem;white-space:nowrap;padding-left:8px}
+.cx-nota{color:var(--muted);font-size:.76rem;margin:12px 0 0;text-align:right}
+#cx-slot-acum #acum{padding:0!important;margin:0!important;background:none!important;border:0!important}
+#cx-slot-acum #acum>*{width:auto!important;max-width:none!important;margin-left:0!important;margin-right:0!important}
+#cx-slot-acum h2{font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-size:.76rem!important;color:var(--muted)!important;margin:0 0 10px!important;text-align:left!important}
+#cx-slot-acum .sec-head{margin:0 0 8px!important}
+#cx-slot-acum .eyebrow{display:none!important}
+#cx-slot-acum .live{border:0!important;background:none!important;padding:0!important;margin:0!important}
+#cx-slot-acum .live-top{padding:0 0 10px!important;margin:0!important;border:0!important;gap:10px!important;flex-wrap:wrap}
+#cx-slot-acum .live-count{font-size:1.5rem!important;line-height:1!important}
+#cx-slot-acum .live-top .btn{padding:.45em .85em!important;font-size:.76rem!important}
+#cx-slot-acum .live-body{padding:0!important;gap:10px!important}
+#cx-slot-acum .live-h{font-size:.66rem!important;margin:8px 0 6px!important}
+#cx-slot-acum .roster{max-height:190px;overflow:auto;gap:4px!important;padding-right:4px}
+#cx-slot-acum .rooms{max-height:150px;overflow:auto;gap:4px!important;padding-right:4px}
+#cx-slot-acum .who{padding:3px 0!important;gap:8px!important;font-size:.8rem!important}
+#cx-slot-acum .who img,#cx-slot-acum .who .av{width:22px!important;height:22px!important}
+#cx-slot-acum .room{padding:5px 8px!important;font-size:.78rem!important}
+#cx-slot-acum .roster::-webkit-scrollbar,#cx-slot-acum .rooms::-webkit-scrollbar{width:6px}
+#cx-slot-acum .roster::-webkit-scrollbar-thumb,#cx-slot-acum .rooms::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
+.cx-tabs{width:min(1180px,92vw);margin:6px auto 0}
+.cx-tablist{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:6px}
+.cx-tablist button{font-family:var(--display);letter-spacing:.05em;text-transform:uppercase;font-size:.74rem;color:var(--muted);background:transparent;border:1px solid var(--line);border-radius:999px;padding:7px 14px;cursor:pointer;transition:.15s}
+.cx-tablist button:hover{color:var(--green-lit);border-color:var(--green-dim)}
+.cx-tablist button[aria-selected="true"]{color:var(--void);background:var(--green);border-color:var(--green)}
+.cx-panels>section{display:none;padding-top:18px!important;padding-bottom:8px!important}
+.cx-panels>section.cx-activ{display:block}
+</style></head>
 <body>
 <header class="hero">
   <canvas id="starfield" aria-hidden="true"></canvas>
@@ -794,16 +865,14 @@
     </div>
     <div class="facts">
       <div class="fact"><b>2v2</b><span>Formatul casei</span></div>
-      <div class="fact"><b>13</b><span>Comenzi proprii</span></div>
+      <div class="fact"><b>18</b><span>Comenzi proprii</span></div>
       <div class="fact"><b>5 min</b><span>Clasament live</span></div>
       <div class="fact"><b>0 lei</b><span>Jocul e gratis</span></div>
     </div>
   </div>
 </header>
 
-<main>
-
-<section id="acum">
+<main><section class="cx" id="clasament"><div class="cx-in"><div class="cx-top"><h2 class="cx-h">Tronul Cetății</h2><p class="cx-sub">Clasamentul se scrie singur din server, la fiecare 10 minute.</p></div><div class="cx-podium"><article class="cx-k cx-k--2"><div class="cx-k-emo">🗡️</div><div class="cx-k-tit">Marele Uzurpator</div><div class="cx-k-nume">—</div><div class="cx-k-cred">— ◈</div><div class="cx-k-sub">stă la doi pași de tron și numără</div></article><article class="cx-k cx-k--1"><div class="cx-k-emo">👑</div><div class="cx-k-tit">Regele Regilor</div><div class="cx-k-nume">—</div><div class="cx-k-cred">— ◈</div><div class="cx-k-sub">stăpânul absolut al creditelor</div></article><article class="cx-k cx-k--3"><div class="cx-k-emo">💠</div><div class="cx-k-tit">Boierul de Vespene</div><div class="cx-k-nume">—</div><div class="cx-k-cred">— ◈</div><div class="cx-k-sub">bogat, dar încă politicos</div></article></div><div class="cx-grid"><div class="cx-card"><h3>Top credite ◈</h3><table class="cx-tab-num" id="cx-t-credite"><tbody><tr><td class="n" colspan="4" style="color:var(--muted);padding:10px 0">Clasamentul se încarcă…</td></tr></tbody></table></div><div class="cx-card"><h3>Top ladder · MMR</h3><table class="cx-tab-num" id="cx-t-ladder"><tbody><tr><td class="n" colspan="4" style="color:var(--muted);padding:10px 0">Clasamentul se încarcă…</td></tr></tbody></table></div><div class="cx-card" id="cx-slot-acum"><section id="acum">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Acum pe server</p>
@@ -824,9 +893,27 @@
       <p class="live-foot" id="live-foot">Date live de la Discord</p>
     </div>
   </div>
-</section>
+</section></div></div><p class="cx-nota" id="cx-nota">Clasamentul se aprinde imediat ce botul începe să publice.</p></div></section>
 
-<section id="comunitate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cx-tabs" id="cx-ghid"><div class="cx-tablist" role="tablist"><button type="button" role="tab" aria-controls="comunitate" aria-selected="true">Ce e Cetatea</button><button type="button" role="tab" aria-controls="primii-pasi" aria-selected="false">Primii pași</button><button type="button" role="tab" aria-controls="server" aria-selected="false">Ce găsești</button><button type="button" role="tab" aria-controls="king-of-kings" aria-selected="false">King of Kings</button><button type="button" role="tab" aria-controls="comenzi" aria-selected="false">Comenzi</button><button type="button" role="tab" aria-controls="economie" aria-selected="false">Economie</button><button type="button" role="tab" aria-controls="ranguri" aria-selected="false">Ranguri</button><button type="button" role="tab" aria-controls="intrebari" aria-selected="false">Întrebări</button></div><div class="cx-panels"><section id="comunitate" class="cx-activ">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Comunitate</p>
@@ -850,9 +937,7 @@
       </p>
     </div>
   </div>
-</section>
-
-<section id="primii-pasi">
+</section><section id="primii-pasi">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Primii pași</p>
@@ -897,9 +982,7 @@
       </div>
     </div>
   </div>
-</section>
-
-<section id="server">
+</section><section id="server">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Pe server</p>
@@ -952,9 +1035,7 @@
       </div>
     </div>
   </div>
-</section>
-
-<section id="king-of-kings">
+</section><section id="king-of-kings">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">King of Kings</p>
@@ -974,9 +1055,7 @@
       </ul>
     </div>
   </div>
-</section>
-
-<section id="comenzi">
+</section><section id="comenzi">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Comenzi</p>
@@ -998,16 +1077,14 @@
           <tr><td><code>/magazin</code></td><td>Ce se poate cumpăra pe credite</td><td><span class="tag">Toți</span></td></tr>
           <tr><td><code>/cumpara</code></td><td>Cumpără din magazin</td><td><span class="tag">Toți</span></td></tr>
           <tr><td><code>/ghid</code></td><td>Explicația tuturor boților și opțiunilor serverului</td><td><span class="tag">Toți</span></td></tr>
-          <tr><td><code>/predictie</code></td><td>Deschide, închide sau rezolvă un pool de predicții</td><td><span class="tag">Staff</span></td></tr>
+          <tr><td><code>/leaga-contul</code></td><td>Îți legi contul de Battle.net — de aici pornesc creditele de ladder, buletinul și clasamentele</td><td><span class="tag">Toți</span></td></tr><tr><td><code>/buletin</code></td><td>Buletinul de ladder: meciuri, W-L, MMR câștigat</td><td><span class="tag">Toți</span></td></tr><tr><td><code>/camera</code></td><td>Îți administrezi camera de voce (nume, limită, blocare)</td><td><span class="tag">Toți</span></td></tr><tr><td><code>/replay</code></td><td>Cardul unui meci: hartă, matchup, APM, build order</td><td><span class="tag">Toți</span></td></tr><tr><td><code>/cont</code></td><td>Ștergi legătura cu contul sau vezi cine și-a legat contul</td><td><span class="tag">Toți</span></td></tr><tr><td><code>/predictie</code></td><td>Deschide, închide sau rezolvă un pool de predicții</td><td><span class="tag">Staff</span></td></tr>
           <tr><td><code>/puncte-adauga</code></td><td>Acordă credite manual</td><td><span class="tag">Staff</span></td></tr>
           <tr><td><code>/puncte-scade</code></td><td>Scade credite manual</td><td><span class="tag">Staff</span></td></tr>
         </tbody>
       </table>
     </div>
   </div>
-</section>
-
-<section id="economie">
+</section><section id="economie">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Economie</p>
@@ -1034,9 +1111,7 @@
       antrenament cu un jucător mai bun.
     </p>
   </div>
-</section>
-
-<section id="ranguri">
+</section><section id="ranguri">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Ranguri</p>
@@ -1070,16 +1145,14 @@
       <div class="rung"><b>Mothership</b><span>nivel 60</span></div>
     </div>
   </div>
-</section>
-
-<section id="intrebari">
+</section><section id="intrebari">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Întrebări frecvente</p>
       <h2>Ce ne întreabă lumea</h2>
     </div>
     <div class="faq">
-      <details open>
+      <details open="">
         <summary>Se mai joacă StarCraft 2 în 2026?</summary>
         <div>
           <p>Da. Blizzard nu mai scoate conținut nou pentru multiplayer, dar ladder-ul funcționează, sezoanele se resetează în continuare și scena competitivă e vie — cu turnee internaționale mari și un circuit de evenimente online care merge tot anul.</p>
@@ -1131,9 +1204,7 @@
       </details>
     </div>
   </div>
-</section>
-
-<section id="alatura-te">
+</section></div></div><section id="alatura-te">
   <div class="shell">
     <div class="sec-head">
       <p class="eyebrow">Hai la noi</p>
@@ -1352,5 +1423,43 @@
     setInterval(function () { if (!document.hidden) tick(); }, 60000);
   })();
 </script>
-</body>
-</html>
+
+
+<script id="cx-script">
+(function(){
+  var lista = document.querySelector(".cx-tablist");
+  if (lista) lista.addEventListener("click", function(e){
+    var b = e.target.closest("button[aria-controls]"); if (!b) return;
+    Array.prototype.forEach.call(lista.querySelectorAll("button"), function(x){ x.setAttribute("aria-selected", String(x === b)); });
+    Array.prototype.forEach.call(document.querySelectorAll(".cx-panels>section"), function(s){ s.classList.toggle("cx-activ", s.id === b.getAttribute("aria-controls")); });
+  });
+  function esc(v){ var d = document.createElement("div"); d.textContent = (v == null ? "" : String(v)); return d.innerHTML; }
+  function gol(id, txt){ var t = document.querySelector("#" + id + " tbody"); if (t) t.innerHTML = '<tr><td class="n" colspan="4" style="color:var(--muted);padding:10px 0">' + txt + '</td></tr>'; }
+  function umple(id, randuri, fv, fm){
+    var t = document.querySelector("#" + id + " tbody"); if (!t) return;
+    if (!randuri || !randuri.length) return;
+    t.innerHTML = randuri.slice(0, 10).map(function(x, i){
+      return '<tr><td class="l">' + (i + 1) + '</td><td class="n">' + esc(x.nume) + '</td><td class="v">' + esc(fv(x)) + '</td>' + (fm ? '<td class="m">' + esc(fm(x)) + '</td>' : '') + '</tr>';
+    }).join("");
+  }
+  fetch("/clasament.json?v=" + Date.now(), { cache: "no-store" }).then(function(r){ return r.ok ? r.json() : null; }).then(function(d){
+    if (!d) { gol("cx-t-credite", "Clasamentul apare imediat ce botul incepe sa publice."); gol("cx-t-ladder", "\u2014"); return; }
+    (d.regi || []).forEach(function(r){
+      var c = document.querySelector(".cx-k--" + r.loc); if (!c) return;
+      c.querySelector(".cx-k-nume").textContent = r.nume;
+      c.querySelector(".cx-k-cred").textContent = r.credite + " \u25c8";
+      if (r.titlu) c.querySelector(".cx-k-tit").textContent = r.titlu;
+      if (r.subtitlu) c.querySelector(".cx-k-sub").textContent = r.subtitlu;
+    });
+    umple("cx-t-credite", d.credite, function(x){ return x.credite + " \u25c8"; }, null);
+    umple("cx-t-ladder", d.ladder, function(x){ return x.mmr + " MMR"; }, function(x){ return [x.liga, x.rasa].filter(Boolean).join(" \u00b7 "); });
+    var n = document.getElementById("cx-nota");
+    if (n && d.generat) {
+      var t = new Date(d.generat);
+      var ora = ("0" + t.getHours()).slice(-2) + ":" + ("0" + t.getMinutes()).slice(-2);
+      n.textContent = "Actualizat la " + ora + " \u00b7 " + ((d.statistici && d.statistici.piloti) || (d.credite || []).length) + " pilo\u021bi \u00b7 ladder prin SC2 Pulse";
+    }
+    if (!(d.ladder || []).length) gol("cx-t-ladder", "Nimeni nu si-a legat inca contul \u2014 da /leaga-contul pe Discord.");
+  }).catch(function(){});
+})();
+</script></body></html>
