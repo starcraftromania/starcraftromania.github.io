@@ -1,12 +1,12 @@
 {
-  "generat": "2026-08-23T19:44:00.584Z",
+  "generat": "2026-08-23T19:45:31.287Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "Snac",
-      "credite": 677,
+      "credite": 679,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
@@ -14,7 +14,7 @@
     {
       "loc": 2,
       "nume": "fluxveins89",
-      "credite": 609,
+      "credite": 617,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
@@ -32,12 +32,12 @@
     {
       "loc": 1,
       "nume": "Snac",
-      "credite": 677
+      "credite": 679
     },
     {
       "loc": 2,
       "nume": "fluxveins89",
-      "credite": 609
+      "credite": 617
     },
     {
       "loc": 3,
@@ -81,9 +81,53 @@
     }
   ],
   "ladder": [],
+  "trivia": [
+    {
+      "loc": 1,
+      "nume": "z3ratul_",
+      "victorii": 40
+    },
+    {
+      "loc": 2,
+      "nume": "bleed7769",
+      "victorii": 35
+    },
+    {
+      "loc": 3,
+      "nume": "Snac",
+      "victorii": 17
+    },
+    {
+      "loc": 4,
+      "nume": "fluxveins89",
+      "victorii": 1
+    }
+  ],
+  "voce": [
+    {
+      "loc": 1,
+      "nume": "Snac",
+      "minute": 186
+    },
+    {
+      "loc": 2,
+      "nume": "fluxveins89",
+      "minute": 176
+    },
+    {
+      "loc": 3,
+      "nume": "bleed7769",
+      "minute": 43
+    },
+    {
+      "loc": 4,
+      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
+      "minute": 1
+    }
+  ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 2394,
+    "inCirculatie": 2404,
     "conturiLegate": 0,
     "piloti": 12
   }
