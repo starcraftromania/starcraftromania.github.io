@@ -901,7 +901,7 @@ body>header.hero .facts span{font-size:.62rem!important}
       <p class="live-foot" id="live-foot">Date live de la Discord</p>
     </div>
   </div>
-</section></div></div><p class="cx-nota" id="cx-nota">Clasamentul se aprinde imediat ce botul începe să publice.</p></div></section>
+</section></div><div class="cx-card"><h3>Top trivia · 🧠 Mintea Roiului</h3><table class="cx-tab-num" id="cx-t-trivia"><tbody><tr><td class="n" colspan="4" style="color:var(--muted);padding:10px 0">Clasamentul se încarcă…</td></tr></tbody></table></div><div class="cx-card"><h3>Top voce · 🎙️ Gura Cetății</h3><table class="cx-tab-num" id="cx-t-voce"><tbody><tr><td class="n" colspan="4" style="color:var(--muted);padding:10px 0">Clasamentul se încarcă…</td></tr></tbody></table></div></div><p class="cx-nota" id="cx-nota">Clasamentul se aprinde imediat ce botul începe să publice.</p></div></section>
 
 
 
@@ -1015,7 +1015,7 @@ body>header.hero .facts span{font-size:.62rem!important}
       <div class="cell">
         <h3>Trivia SC2 <em>non-stop</em></h3>
         <p>
-          O întrebare la fiecare 10 minute în <strong>#trivia</strong>, zi și noapte. Build-uri,
+          O întrebare pe minut în <strong>#trivia</strong>, zi și noapte. Build-uri,
           unități, istoria e-sportului. Răspunsul corect aduce credite — și, în timp, o reputație.
         </p>
       </div>
@@ -1451,7 +1451,7 @@ body>header.hero .facts span{font-size:.62rem!important}
     }).join("");
   }
   fetch("/clasament.json?v=" + Date.now(), { cache: "no-store" }).then(function(r){ return r.ok ? r.json() : null; }).then(function(d){
-    if (!d) { gol("cx-t-credite", "Clasamentul apare imediat ce botul \u00eencepe s\u0103 publice."); gol("cx-t-ladder", "\u2014"); return; }
+    if (!d) { gol("cx-t-credite", "Clasamentul apare imediat ce botul \u00eencepe s\u0103 publice."); gol("cx-t-ladder", "\u2014"); gol("cx-t-trivia", "—"); gol("cx-t-voce", "—"); return; }
     (d.regi || []).forEach(function(r){
       var c = document.querySelector(".cx-k--" + r.loc); if (!c) return;
       c.querySelector(".cx-k-nume").textContent = r.nume;
@@ -1461,6 +1461,10 @@ body>header.hero .facts span{font-size:.62rem!important}
     });
     umple("cx-t-credite", d.credite, function(x){ return x.credite + " \u25c8"; }, null);
     umple("cx-t-ladder", d.ladder, function(x){ return x.mmr + " MMR"; }, function(x){ return [x.liga, x.rasa].filter(Boolean).join(" \u00b7 "); });
+    umple("cx-t-trivia", d.trivia, function(x){ return x.victorii + " victorii"; }, null);
+    umple("cx-t-voce", d.voce, function(x){ return Math.floor(x.minute / 60) + "h " + (x.minute % 60) + "m"; }, null);
+    if (!(d.trivia || []).length) gol("cx-t-trivia", "Apare la următoarea publicare a botului.");
+    if (!(d.voce || []).length) gol("cx-t-voce", "Apare la următoarea publicare a botului.");
     var n = document.getElementById("cx-nota");
     if (n && d.generat) {
       var t = new Date(d.generat);
