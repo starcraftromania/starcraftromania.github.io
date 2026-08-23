@@ -1,12 +1,12 @@
 {
-  "generat": "2026-08-23T16:15:25.185Z",
+  "generat": "2026-08-23T16:25:25.189Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "credite": 351,
+      "credite": 376,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
@@ -14,7 +14,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 259,
+      "credite": 287,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
@@ -22,7 +22,7 @@
     {
       "loc": 3,
       "nume": "Snac",
-      "credite": 132,
+      "credite": 155,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -32,17 +32,17 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "credite": 351
+      "credite": 376
     },
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 259
+      "credite": 287
     },
     {
       "loc": 3,
       "nume": "Snac",
-      "credite": 132
+      "credite": 155
     },
     {
       "loc": 4,
@@ -83,7 +83,7 @@
   "ladder": [],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 1099,
+    "inCirculatie": 1175,
     "conturiLegate": 0,
     "piloti": 11
   }
