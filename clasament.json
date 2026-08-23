@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-23T13:15:25.113Z",
+  "generat": "2026-08-23T13:35:25.123Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -14,7 +14,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 219,
+      "credite": 229,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
@@ -37,7 +37,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 219
+      "credite": 229
     },
     {
       "loc": 3,
@@ -83,7 +83,7 @@
   "ladder": [],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 1019,
+    "inCirculatie": 1029,
     "conturiLegate": 0,
     "piloti": 11
   }
