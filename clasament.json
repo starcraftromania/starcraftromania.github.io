@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-23T18:51:36.411Z",
+  "generat": "2026-08-23T19:01:36.414Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -14,7 +14,7 @@
     {
       "loc": 2,
       "nume": "fluxveins89",
-      "credite": 431,
+      "credite": 451,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
@@ -37,7 +37,7 @@
     {
       "loc": 2,
       "nume": "fluxveins89",
-      "credite": 431
+      "credite": 451
     },
     {
       "loc": 3,
@@ -83,7 +83,7 @@
   "ladder": [],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 2080,
+    "inCirculatie": 2100,
     "conturiLegate": 0,
     "piloti": 12
   }
