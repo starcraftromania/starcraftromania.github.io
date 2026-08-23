@@ -1451,7 +1451,7 @@ body>header.hero .facts span{font-size:.62rem!important}
     }).join("");
   }
   fetch("/clasament.json?v=" + Date.now(), { cache: "no-store" }).then(function(r){ return r.ok ? r.json() : null; }).then(function(d){
-    if (!d) { gol("cx-t-credite", "Clasamentul apare imediat ce botul incepe sa publice."); gol("cx-t-ladder", "\u2014"); return; }
+    if (!d) { gol("cx-t-credite", "Clasamentul apare imediat ce botul \u00eencepe s\u0103 publice."); gol("cx-t-ladder", "\u2014"); return; }
     (d.regi || []).forEach(function(r){
       var c = document.querySelector(".cx-k--" + r.loc); if (!c) return;
       c.querySelector(".cx-k-nume").textContent = r.nume;
@@ -1467,7 +1467,7 @@ body>header.hero .facts span{font-size:.62rem!important}
       var ora = ("0" + t.getHours()).slice(-2) + ":" + ("0" + t.getMinutes()).slice(-2);
       n.textContent = "Actualizat la " + ora + " \u00b7 " + ((d.statistici && d.statistici.piloti) || (d.credite || []).length) + " pilo\u021bi \u00b7 ladder prin SC2 Pulse";
     }
-    if (!(d.ladder || []).length) gol("cx-t-ladder", "Nimeni nu si-a legat inca contul \u2014 da /leaga-contul pe Discord.");
+    if (!(d.ladder || []).length) gol("cx-t-ladder", "Nimeni nu \u0219i-a legat \u00eenc\u0103 contul \u2014 d\u0103 /leaga-contul pe Discord.");
   }).catch(function(){});
 })();
 </script></body></html>
