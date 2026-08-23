@@ -1,0 +1,90 @@
+{
+  "generat": "2026-08-23T13:13:24.483Z",
+  "sursa": "Curierul Xel'Naga",
+  "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
+  "regi": [
+    {
+      "loc": 1,
+      "nume": "z3ratul_",
+      "credite": 316,
+      "titlu": "Regele Regilor",
+      "subtitlu": "stapanul absolut al creditelor",
+      "emoji": "👑"
+    },
+    {
+      "loc": 2,
+      "nume": "bleed7769",
+      "credite": 219,
+      "titlu": "Marele Uzurpator",
+      "subtitlu": "sta la doi pasi de tron si numara",
+      "emoji": "🗡️"
+    },
+    {
+      "loc": 3,
+      "nume": "Snac",
+      "credite": 127,
+      "titlu": "Boierul de Vespene",
+      "subtitlu": "bogat, dar inca politicos",
+      "emoji": "💠"
+    }
+  ],
+  "credite": [
+    {
+      "loc": 1,
+      "nume": "z3ratul_",
+      "credite": 316
+    },
+    {
+      "loc": 2,
+      "nume": "bleed7769",
+      "credite": 219
+    },
+    {
+      "loc": 3,
+      "nume": "Snac",
+      "credite": 127
+    },
+    {
+      "loc": 4,
+      "nume": "fluxveins89",
+      "credite": 55
+    },
+    {
+      "loc": 5,
+      "nume": "Frank Castle",
+      "credite": 50
+    },
+    {
+      "loc": 6,
+      "nume": "Aatom",
+      "credite": 50
+    },
+    {
+      "loc": 7,
+      "nume": "Sorin007",
+      "credite": 50
+    },
+    {
+      "loc": 8,
+      "nume": "<ro> Escape",
+      "credite": 50
+    },
+    {
+      "loc": 9,
+      "nume": "laurentiu",
+      "credite": 50
+    },
+    {
+      "loc": 10,
+      "nume": "esKILL",
+      "credite": 50
+    }
+  ],
+  "ladder": [],
+  "statistici": {
+    "membri": 18,
+    "inCirculatie": 1019,
+    "conturiLegate": 0,
+    "piloti": 11
+  }
+}
