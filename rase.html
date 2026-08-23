@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terran, Zerg sau Protoss? Cum alegi rasa în StarCraft II</title>
+<meta name="description" content="Cele trei rase din StarCraft II explicate pe înțelesul unui începător: cum se joacă fiecare, ce fel de om se potrivește cu ea și cât de greu se învață.">
+<link rel="canonical" href="https://starcraftromania.github.io/rase.html">
+<link rel="alternate" hreflang="ro" href="https://starcraftromania.github.io/rase.html">
+<link rel="alternate" hreflang="x-default" href="https://starcraftromania.github.io/rase.html">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:site_name" content="StarCraft România — Cetatea Xel'Naga">
+<meta property="og:title" content="Terran, Zerg sau Protoss? Cum alegi rasa în StarCraft II">
+<meta property="og:description" content="Cele trei rase din StarCraft II explicate pe înțelesul unui începător: cum se joacă fiecare, ce fel de om se potrivește cu ea și cât de greu se învață.">
+<meta property="og:url" content="https://starcraftromania.github.io/rase.html">
+<meta property="og:image" content="https://starcraftromania.github.io/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Terran, Zerg sau Protoss? Cum alegi rasa în StarCraft II">
+<meta name="twitter:description" content="Cele trei rase din StarCraft II explicate pe înțelesul unui începător: cum se joacă fiecare, ce fel de om se potrivește cu ea și cât de greu se învață.">
+<meta name="twitter:image" content="https://starcraftromania.github.io/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/ChakraPetch-latin-ext-9cc6078d.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/ChakraPetch-latin-d09f6c28.woff2" crossorigin>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+  :root {
+    /* Brood War: consola verde fosforescent pe negru. Temă unică, asumată. */
+    --void:      #050805;
+    --void-deep: #020402;
+    --hull:      #0A100C;
+    --hull-2:    #111A13;
+    --line:      #1E2B21;
+    --green:     #3BE06B;
+    --green-lit: #9BFFB8;
+    --green-dim: #1B7A3C;
+    --phosphor:  #5BC47C;
+    --amber:     #D9A441;
+    --text:      #B9D4BF;
+    --muted:     #74907C;
+    --white:     #E6F5E9;
+
+    --display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+    --measure: 68ch;
+    --shell: 1100px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--void);
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection { background: var(--green); color: var(--void-deep); }
+
+  a { color: var(--phosphor); text-decoration: none; }
+  a:hover { color: var(--green-lit); text-decoration: underline; text-underline-offset: 3px; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--display);
+    color: var(--white);
+    text-wrap: balance;
+    margin: 0;
+    line-height: 1.15;
+  }
+
+  p { margin: 0; max-width: var(--measure); }
+
+  .shell {
+    max-width: var(--shell);
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+
+  /* ---------- HERO ---------- */
+
+  .hero {
+    position: relative;
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid var(--line);
+    background:
+      radial-gradient(120% 90% at 50% 8%, rgba(59,224,107,0.13), transparent 55%),
+      radial-gradient(80% 60% at 82% 92%, rgba(91,196,124,0.09), transparent 60%),
+      linear-gradient(180deg, var(--void-deep), var(--void));
+  }
+
+  #starfield {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+  }
+
+  .hero .shell { position: relative; z-index: 1; padding-block: 96px 72px; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .eyebrow::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--green-dim), transparent);
+    max-width: 220px;
+  }
+
+  h1 {
+    font-size: clamp(2.6rem, 7vw, 4.6rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-block: 22px 20px;
+  }
+  h1 .lit {
+    background: linear-gradient(100deg, var(--green-lit), var(--green) 55%, var(--green-dim));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .lede {
+    font-size: clamp(1.05rem, 2.2vw, 1.28rem);
+    color: var(--text);
+    max-width: 56ch;
+  }
+
+  .cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 36px;
+  }
+
+  .btn {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    padding: 14px 26px;
+    border: 1px solid var(--green);
+    background: var(--green);
+    color: var(--void-deep);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .btn:hover {
+    background: var(--green-lit);
+    color: var(--void-deep);
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(59,224,107,0.25);
+  }
+  .btn.ghost {
+    background: transparent;
+    color: var(--green-lit);
+    border-color: var(--line);
+  }
+  .btn.ghost:hover {
+    background: rgba(59,224,107,0.08);
+    border-color: var(--green);
+    color: var(--green-lit);
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 22px 0;
+    margin-top: 56px;
+    border-top: 1px solid var(--line);
+    padding-top: 26px;
+  }
+  .fact {
+    padding-left: 22px;
+    border-left: 1px solid var(--line);
+  }
+  .fact b {
+    display: block;
+    font-family: var(--display);
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--green-lit);
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .fact span {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ---------- SECTIONS ---------- */
+
+  section { padding-block: 84px; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: none; }
+
+  .sec-head { margin-bottom: 34px; }
+  .sec-head h2 {
+    font-size: clamp(1.7rem, 3.6vw, 2.4rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 16px;
+  }
+
+  .prose { display: flex; flex-direction: column; gap: 18px; }
+  .prose p { color: var(--text); }
+  .prose strong { color: var(--white); font-weight: 600; }
+
+  /* ---------- STEPS ---------- */
+
+  .steps {
+    display: grid;
+    gap: 2px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .step {
+    background: var(--hull);
+    padding: 28px 30px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+  .step .num {
+    font-family: var(--display);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--green-dim);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .step h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 8px; }
+  .step p { color: var(--muted); font-size: 0.95rem; }
+  .step p strong { color: var(--text); }
+
+  /* ---------- BOT GRID ---------- */
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .cell {
+    background: var(--hull);
+    padding: 26px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cell h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .cell h3 em {
+    font-family: var(--mono);
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .cell p { font-size: 0.94rem; color: var(--muted); }
+
+  /* ---------- TABLE ---------- */
+
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.94rem;
+    min-width: 520px;
+  }
+  thead th {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--green);
+    text-align: left;
+    padding: 14px 20px;
+    background: var(--hull-2);
+    border-bottom: 1px solid var(--line);
+    font-weight: 500;
+  }
+  tbody td {
+    padding: 13px 20px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+    color: var(--muted);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:nth-child(odd) { background: rgba(10,16,12,0.55); }
+  tbody tr:hover { background: rgba(59,224,107,0.05); }
+  td code {
+    font-family: var(--mono);
+    color: var(--green-lit);
+    font-size: 0.92em;
+    white-space: nowrap;
+  }
+  td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--text); white-space: nowrap; }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--phosphor);
+    border: 1px solid rgba(91,196,124,0.35);
+    padding: 2px 7px;
+    white-space: nowrap;
+  }
+
+  /* ---------- RANK LADDER ---------- */
+
+  .ladder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    margin-top: 8px;
+  }
+  .rung {
+    background: var(--hull);
+    padding: 18px 10px;
+    text-align: center;
+  }
+  .rung b {
+    display: block;
+    font-family: var(--display);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .rung span {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .rung:last-child { background: linear-gradient(180deg, rgba(59,224,107,0.16), var(--hull)); }
+  .rung:last-child b { color: var(--green-lit); }
+
+  .ladder-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  /* ---------- CROWN PANEL ---------- */
+
+  .crown {
+    border: 1px solid var(--green-dim);
+    background:
+      radial-gradient(80% 120% at 15% 0%, rgba(59,224,107,0.12), transparent 60%),
+      var(--hull);
+    padding: 34px 34px 36px;
+    display: grid;
+    gap: 20px;
+  }
+  .crown h3 { font-size: 1.3rem; font-weight: 600; }
+  .crown p { color: var(--text); }
+  .crown ul {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--muted);
+    font-size: 0.95rem;
+    display: grid;
+    gap: 8px;
+  }
+  .crown li::marker { color: var(--green); }
+
+  /* ---------- FAQ ---------- */
+
+  .faq { display: grid; gap: 2px; background: var(--line); border: 1px solid var(--line); }
+  details { background: var(--hull); }
+  details[open] { background: var(--hull-2); }
+  summary {
+    cursor: pointer;
+    padding: 20px 26px;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.02rem;
+    color: var(--white);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: "+";
+    font-family: var(--mono);
+    color: var(--green);
+    font-size: 1.3rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  details[open] summary::after { content: "−"; }
+  details > div {
+    padding: 0 26px 22px;
+    color: var(--muted);
+    font-size: 0.96rem;
+  }
+  details > div p + p { margin-top: 12px; }
+
+
+  /* ---------- LIVE: STAREA SERVERULUI ---------- */
+
+  .live {
+    border: 1px solid var(--line);
+    background:
+      radial-gradient(90% 140% at 0% 0%, rgba(59,224,107,0.07), transparent 62%),
+      var(--hull);
+  }
+  .live-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 22px 26px;
+    border-bottom: 1px solid var(--line);
+    background: var(--hull-2);
+  }
+  .live-count { display: flex; align-items: baseline; gap: 12px; }
+  .live-count b {
+    font-family: var(--display);
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--green-lit);
+    font-variant-numeric: tabular-nums;
+  }
+  .live-lbl {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 0 0 rgba(59,224,107,0.6);
+    align-self: center;
+    flex-shrink: 0;
+    animation: pulse 2.4s ease-out infinite;
+  }
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(59,224,107,0.55); }
+    70%  { box-shadow: 0 0 0 10px rgba(59,224,107,0); }
+    100% { box-shadow: 0 0 0 0 rgba(59,224,107,0); }
+  }
+  .btn.small { padding: 10px 20px; font-size: 0.92rem; }
+
+  .live-body { padding: 24px 26px; display: grid; gap: 26px; }
+  .live-msg { color: var(--muted); font-size: 0.95rem; }
+
+  .live-h {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 14px;
+  }
+
+  .roster { display: flex; flex-wrap: wrap; gap: 10px; }
+  .who {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 14px 8px 8px;
+    border: 1px solid var(--line);
+    background: var(--void);
+    min-width: 0;
+  }
+  .who img, .who .ini {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    background: var(--hull-2);
+    color: var(--green);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+  .who { max-width: 100%; }
+  .who span {
+    font-size: 0.9rem;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+  .who i {
+    font-style: normal;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 18ch;
+    min-width: 0;
+  }
+  .who::before {
+    content: "";
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    flex-shrink: 0;
+  }
+  .who[data-s="idle"]::before { background: var(--amber); }
+  .who[data-s="dnd"]::before  { background: #C8503C; }
+
+  .rooms { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .room {
+    background: var(--void);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 0.92rem;
+  }
+  .room b { font-weight: 500; color: var(--text); }
+  .room[data-busy="1"] { background: var(--hull-2); }
+  .room[data-busy="1"] b { color: var(--green-lit); }
+  .room em {
+    font-style: normal;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: right;
+  }
+  .room[data-busy="1"] em { color: var(--green); }
+
+  .live-foot {
+    padding: 14px 26px 18px;
+    border-top: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    max-width: none;
+  }
+
+  .live[data-state="off"] .dot { animation: none; background: var(--muted); }
+  .live[data-state="off"] .live-count b { color: var(--muted); }
+
+  /* ---------- FOOTER ---------- */
+
+  footer {
+    background: var(--void-deep);
+    border-top: 1px solid var(--line);
+    padding-block: 56px 44px;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .foot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+  .foot-grid h4 {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin: 0 0 14px;
+    font-weight: 500;
+  }
+  .foot-grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  .foot-note {
+    border-top: 1px solid var(--line);
+    padding-top: 22px;
+    font-size: 0.84rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16px; }
+    section { padding-block: 60px; }
+    .hero .shell { padding-block: 72px 56px; }
+    .facts { grid-template-columns: repeat(2, 1fr); gap: 20px 0; }
+    .fact { padding-left: 16px; }
+    .fact b { font-size: 1.45rem; }
+    .step { grid-template-columns: 1fr; gap: 12px; padding: 24px; }
+    .step .num { font-size: 1.5rem; }
+    .crown { padding: 26px 22px 28px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+
+/* ── pagini de continut ─────────────────────────────────────────── */
+.bara{position:sticky;top:0;z-index:50;background:rgba(5,8,5,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bara .shell{display:flex;align-items:center;gap:16px;padding:12px 24px;flex-wrap:wrap}
+.marca{font-family:var(--display);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.82rem;color:var(--green-lit);text-decoration:none;white-space:nowrap}
+.marca:hover{color:var(--white)}
+.bara nav{display:flex;gap:14px;flex-wrap:wrap;margin-left:auto;align-items:center}
+.bara nav a{font-size:.78rem;color:var(--muted);text-decoration:none;white-space:nowrap}
+.bara nav a:hover{color:var(--green-lit)}
+.bara nav a.btn{color:var(--void)}
+.firimituri{font-family:var(--mono);font-size:.72rem;color:var(--muted);padding:22px 0 0}
+.firimituri a{color:var(--phosphor);text-decoration:none}
+.firimituri a:hover{text-decoration:underline}
+.cap{padding:14px 0 8px}
+.cap h1{font-size:clamp(1.8rem,4.2vw,2.7rem);line-height:1.08;margin:.15em 0 .35em}
+.cuprins{background:var(--hull);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:26px 0}
+.cuprins b{font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;color:var(--muted);display:block;margin-bottom:8px}
+.cuprins ol{margin:0;padding-left:1.25em;columns:2;column-gap:28px}
+@media(max-width:640px){.cuprins ol{columns:1}}
+.cuprins li{margin:.25em 0}
+.cuprins a{color:var(--phosphor);text-decoration:none;font-size:.9rem}
+.cuprins a:hover{text-decoration:underline}
+.mai-departe{border-top:1px solid var(--line);margin-top:44px;padding-top:26px}
+.mai-departe h2{font-size:1.1rem;margin-bottom:14px}
+.legaturi{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.legatura{display:block;background:var(--hull);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;transition:.15s}
+.legatura:hover{border-color:var(--green-dim);background:var(--hull-2)}
+.legatura b{display:block;color:var(--green-lit);font-family:var(--display);font-size:.95rem;margin-bottom:4px}
+.legatura span{color:var(--muted);font-size:.82rem;line-height:1.45}
+.chemare{background:linear-gradient(180deg,var(--hull-2),var(--hull));border:1px solid var(--green-dim);border-radius:14px;padding:22px 24px;margin:34px 0 0;text-align:center}
+.chemare p{margin:0 0 14px;color:var(--text)}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Ce rasă să alegi în StarCraft II","description":"Cele trei rase din StarCraft II explicate pe înțelesul unui începător: cum se joacă fiecare, ce fel de om se potrivește cu ea și cât de greu se învață.","inLanguage":"ro-RO","datePublished":"2026-08-23","dateModified":"2026-08-23","author":{"@type":"Organization","name":"Cetatea Xel'Naga"},"publisher":{"@type":"Organization","name":"StarCraft România — Cetatea Xel'Naga","url":"https://starcraftromania.github.io/"},"mainEntityOfPage":"https://starcraftromania.github.io/rase.html","about":{"@type":"VideoGame","name":"StarCraft II","publisher":{"@type":"Organization","name":"Blizzard Entertainment"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"StarCraft România","item":"https://starcraftromania.github.io/"},{"@type":"ListItem","position":2,"name":"Ce rasă să alegi","item":"https://starcraftromania.github.io/rase.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Care rasă e cea mai ușoară pentru începători?","acceptedAnswer":{"@type":"Answer","text":"Protoss, pentru că cere cel mai puțin APM și are cele mai simple compoziții de armată. Terran e cea mai iertătoare când uiți de macro, iar Zerg te învață economia cel mai bine."}},{"@type":"Question","name":"Pot să-mi schimb rasa mai târziu?","acceptedAnswer":{"@type":"Answer","text":"Oricând, dintr-un meniu. Nu pierzi nimic — dar MMR-ul e separat pe fiecare rasă, deci vei juca la început contra unor adversari mai slabi decât ești obișnuit."}},{"@type":"Question","name":"Care rasă e cea mai puternică în 2026?","acceptedAnswer":{"@type":"Answer","text":"După patch-ul 5.0.16 balansul s-a rescris aproape complet și meta-ul e încă în mișcare. La nivelul la care joacă majoritatea, rasa contează mult mai puțin decât macro-ul."}},{"@type":"Question","name":"Ce înseamnă „mirror\"?","acceptedAnswer":{"@type":"Answer","text":"Un meci între aceeași rasă: ZvZ, PvP, TvT. Sunt matchup-urile cu ritmul cel mai rapid și cele mai puțin iertătoare la greșeli."}}]}]}</script>
+</head>
+<body>
+<header class="bara"><div class="shell">
+      <a class="marca" href="/">⌁ StarCraft România</a>
+      <nav>
+        <a href="/incepatori.html">Ghid pentru începători</a>
+        <a href="/descarca-starcraft-2.html">Descarcă StarCraft II gratis</a>
+        <a href="/patch-5-0-16.html">Patch 5.0.16 explicat</a>
+        <a href="/jucatori-romani.html">Jucătorii români</a>
+        <a href="/ladder.html">Ladder, ligi și MMR</a>
+        <a class="btn" href="https://discord.gg/ZuGDmpeRm3" rel="noopener">Intră pe Discord</a>
+      </nav>
+    </div></header>
+<main>
+  <div class="shell">
+    <p class="firimituri"><a href="/">StarCraft România</a> › Ce rasă să alegi</p>
+    <div class="cap">
+      <p class="eyebrow">Ghid</p>
+      <h1>Ce rasă să alegi în StarCraft II</h1>
+      <p class="lede">Prima decizie din StarCraft II e și cea mai personală. Cele trei rase nu sunt variații pe aceeași temă — sunt trei jocuri diferite, cu trei feluri de a gândi. Alegerea nu e definitivă, dar merită făcută cu cap: obișnuința se strânge în luni, nu în zile.</p>
+    </div>
+    <div class="cuprins"><b>Ce găsești mai jos</b><ol><li><a href="#terran">Terran — oamenii, cu șurubelnița în mână</a></li><li><a href="#zerg">Zerg — roiul care nu se oprește</a></li><li><a href="#protoss">Protoss — puțini, scumpi, devastatori</a></li><li><a href="#comparatie">Comparație rapidă</a></li><li><a href="#random">Și dacă aleg Random?</a></li><li><a href="#cum-alegi">Deci cum alegi?</a></li><li><a href="#intrebari">Întrebări frecvente</a></li></ol></div>
+    <div class="prose">
+
+<h2 id="terran">Terran — oamenii, cu șurubelnița în mână</h2>
+<p>Terranii sunt oameni: nu au puteri psionice, nu se regenerează, nu se teleportează. Compensează prin inginerie. Clădirile zboară, se repară cu muncitori, iar aproape fiecare unitate are un buton care schimbă regulile — tancul intră în siege mode, Marine-ul își ia stimulent, Medivac-ul face un salt de viteză.</p>
+<p><b>Cum se simte:</b> ca și cum ai conduce o fabrică și o echipă SWAT în același timp. Ai cel mai mult de făcut cu mâinile, dar și cele mai multe soluții la orice problemă.</p>
+<p><b>Ți se potrivește dacă:</b> îți place să ai control asupra fiecărui detaliu, te distrează micro-managementul (splituri de Marines contra Banelings-urilor e sportul lor național) și nu te deranjează să repari lucruri.</p>
+<p><b>Punctul slab:</b> e cea mai punitivă rasă când greșești. Un Marine pierdut prostește nu se întoarce. În schimb, e și cea mai iertătoare la macro imperfect — clădirile de producție continuă să scoată unități chiar dacă tu ai uitat de ele câteva secunde.</p>
+<p class="small">De reținut din <a href="/patch-5-0-16.html">patch-ul 5.0.16</a>: Ghost-ul a fost reproiectat (100 HP, rază 7, snipe la 170 damage și 75 energie), iar Command Center-ul costă acum 300 de minerale și dă 13 supply.</p>
+
+<h2 id="zerg">Zerg — roiul care nu se oprește</h2>
+<p>Zergul nu construiește: mută. Fiecare unitate se naște dintr-o larvă, iar larvele sunt resursa ta cea mai prețioasă. Fiecare Drone transformată în armată e o Drone care nu mai minează. Toată rasa e un exercițiu de aritmetică sub presiune: acum fac economie sau acum fac armată?</p>
+<p><b>Cum se simte:</b> ca un joc de valuri. Ești în urmă, ești în urmă, ești în urmă — și dintr-odată ai de trei ori armata adversarului, pentru că ai avut trei baze în timp ce el avea două.</p>
+<p><b>Ți se potrivește dacă:</b> îți place să reacționezi, nu să planifici; îți place ideea de a fi mereu cu un pas în urmă la armată și cu doi pași înainte la economie; și îți place să vezi hărți întregi acoperite de creep.</p>
+<p><b>Punctul slab:</b> Zergul te pedepsește pentru lipsa de scouting mai tare decât oricine. Dacă nu vezi ce vine, faci unitățile greșite și pierzi pe loc. Overseer-ul și Overlord-ul plimbați pe hartă nu sunt opționali.</p>
+<p class="small">Din 5.0.16: Hatchery-ul costă 300 de minerale și dă 4 supply, iar Viper-ul poate răpi tancuri aflate în siege mode — o schimbare care a rescris complet matchup-ul contra Terranilor.</p>
+
+<h2 id="protoss">Protoss — puțini, scumpi, devastatori</h2>
+<p>Protoss-ul joacă cu cele mai puține unități, dar fiecare costă cât două de la ceilalți și fiecare are scuturi care se refac singure. Nu ai nevoie de multe click-uri; ai nevoie de deciziile corecte. Un Force Field pus prost pierde meciul, unul pus bine îl câștigă.</p>
+<p><b>Cum se simte:</b> ca un joc de șah cu piese care explodează. Compozițiile de armată sunt simple, dar poziționarea și momentul atacului contează enorm.</p>
+<p><b>Ți se potrivește dacă:</b> preferi să gândești decât să faci click; îți place ideea de armată mică și scumpă; și vrei rasa cu cea mai blândă cerință de APM la început.</p>
+<p><b>Punctul slab:</b> pierderea unei bătălii mari doare mai tare decât la ceilalți, pentru că ai investit mai mult în fiecare unitate. Și, la nivel înalt, e rasa cu cel mai mic „skill ceiling" pe mecanică pură — te ridici prin strategie.</p>
+<p class="small">Din 5.0.16: Warpgate a fost reproiectat — warp-in-ul durează 4 secunde, cercetarea accelerează Gateway-urile cu 50%, iar transformarea costă 25/25. Storm-ul a scăzut la 100 damage, Mothership-ul costă 400/200.</p>
+
+<h2 id="comparatie">Comparație rapidă</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th></th><th>Terran</th><th>Zerg</th><th>Protoss</th></tr></thead>
+  <tbody>
+    <tr><td>Cerință de APM</td><td>Mare</td><td>Medie-mare</td><td>Mică</td></tr>
+    <tr><td>Cât de repede vezi progres</td><td>Lent</td><td>Mediu</td><td>Rapid</td></tr>
+    <tr><td>Iertătoare la macro greșit</td><td>Da</td><td>Nu</td><td>Parțial</td></tr>
+    <tr><td>Iertătoare la lupte greșite</td><td>Nu</td><td>Da (refaci repede)</td><td>Nu</td></tr>
+    <tr><td>Depinde de scouting</td><td>Mult</td><td>Enorm</td><td>Mediu</td></tr>
+    <tr><td>Unitatea emblemă</td><td>Marine</td><td>Zergling</td><td>Zealot</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2 id="random">Și dacă aleg Random?</h2>
+<p>Random îți dă o rasă aleatoare la fiecare meci. Adversarul nu știe cu ce joci, ceea ce e un avantaj real în primele minute. Prețul: înveți de trei ori mai încet, pentru că împarți orele între trei jocuri diferite.</p>
+<p>Recomandarea onestă: joacă Random abia după ce ai o rasă principală pe care o stăpânești. Ca prima alegere, e o capcană drăguță.</p>
+
+<h2 id="cum-alegi">Deci cum alegi?</h2>
+<p>Trei întrebări, în ordinea asta:</p>
+<ol>
+  <li><b>Care îți place cum arată?</b> Serios. Vei privi unitățile alea sute de ore. Estetica bate teoria.</li>
+  <li><b>Vrei să faci multe lucruri sau puține lucruri bine?</b> Multe → Terran sau Zerg. Puține și corecte → Protoss.</li>
+  <li><b>Ce campanie ai jucat cu plăcere?</b> Dacă ți-a plăcut Wings of Liberty, probabil ești Terran în adâncul sufletului.</li>
+</ol>
+<p>Și dacă tot nu te decizi: joacă cinci meciuri cu fiecare. Corpul îți spune singur.</p>
+
+<h2 id="intrebari">Întrebări frecvente</h2>
+<div class="faq">
+  <details><summary>Care rasă e cea mai ușoară pentru începători?</summary><p>Protoss, pentru că cere cel mai puțin APM și are cele mai simple compoziții de armată. Terran e cea mai iertătoare când uiți de macro, iar Zerg te învață economia cel mai bine.</p></details>
+  <details><summary>Pot să-mi schimb rasa mai târziu?</summary><p>Oricând, dintr-un meniu. Nu pierzi nimic — dar MMR-ul e separat pe fiecare rasă, deci vei juca la început contra unor adversari mai slabi decât ești obișnuit.</p></details>
+  <details><summary>Care rasă e cea mai puternică în 2026?</summary><p>După patch-ul 5.0.16 balansul s-a rescris aproape complet și meta-ul e încă în mișcare. La nivelul la care joacă majoritatea, rasa contează mult mai puțin decât macro-ul.</p></details>
+  <details><summary>Ce înseamnă „mirror&quot;?</summary><p>Un meci între aceeași rasă: ZvZ, PvP, TvT. Sunt matchup-urile cu ritmul cel mai rapid și cele mai puțin iertătoare la greșeli.</p></details>
+</div>
+    </div>
+    <div class="chemare">
+      <p><b>Joci din România?</b> Cetatea Xel'Naga e serverul de Discord al comunității — oameni cu care să joci 2v2 și customs, clasamente live, trivia și camere de voce. Orice ligă, de la Bronze la GM.</p>
+      <a class="btn" href="https://discord.gg/ZuGDmpeRm3" rel="noopener">Intră pe Discord</a>
+    </div>
+    <section class="mai-departe"><h2>Mai departe</h2><div class="legaturi">
+      <a class="legatura" href="/incepatori.html"><b>Ghid pentru începători</b><span>Cum începi StarCraft II în 2026: instalare gratuită, mecanicile de bază, un build order simplu …</span></a>
+      <a class="legatura" href="/descarca-starcraft-2.html"><b>Descarcă StarCraft II gratis</b><span>StarCraft II e gratuit: campania Wings of Liberty și tot multiplayerul. Ce primești gratis, ce …</span></a>
+      <a class="legatura" href="/patch-5-0-16.html"><b>Patch 5.0.16 explicat</b><span>Cel mai mare patch de balans din ultimii 11 ani: start cu 8 muncitori, economie rescrisă, Ghost…</span></a>
+    </div></section>
+  </div>
+</main>
+<footer>
+  <div class="shell foot-grid">
+    <p class="foot-note">© 2026 Cetatea Xel'Naga · <a href="/">StarCraft România</a> · StarCraft II este marcă înregistrată Blizzard Entertainment. Acest site nu este afiliat cu Blizzard.</p>
+  </div>
+</footer>
+</body>
+</html>

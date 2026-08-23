@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cum descarci StarCraft II gratis în 2026 (pas cu pas)</title>
+<meta name="description" content="StarCraft II e gratuit: campania Wings of Liberty și tot multiplayerul. Ce primești gratis, ce se plătește, cum îl instalezi și ce cerințe de sistem are.">
+<link rel="canonical" href="https://starcraftromania.github.io/descarca-starcraft-2.html">
+<link rel="alternate" hreflang="ro" href="https://starcraftromania.github.io/descarca-starcraft-2.html">
+<link rel="alternate" hreflang="x-default" href="https://starcraftromania.github.io/descarca-starcraft-2.html">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:site_name" content="StarCraft România — Cetatea Xel'Naga">
+<meta property="og:title" content="Cum descarci StarCraft II gratis în 2026 (pas cu pas)">
+<meta property="og:description" content="StarCraft II e gratuit: campania Wings of Liberty și tot multiplayerul. Ce primești gratis, ce se plătește, cum îl instalezi și ce cerințe de sistem are.">
+<meta property="og:url" content="https://starcraftromania.github.io/descarca-starcraft-2.html">
+<meta property="og:image" content="https://starcraftromania.github.io/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cum descarci StarCraft II gratis în 2026 (pas cu pas)">
+<meta name="twitter:description" content="StarCraft II e gratuit: campania Wings of Liberty și tot multiplayerul. Ce primești gratis, ce se plătește, cum îl instalezi și ce cerințe de sistem are.">
+<meta name="twitter:image" content="https://starcraftromania.github.io/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/ChakraPetch-latin-ext-9cc6078d.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/ChakraPetch-latin-d09f6c28.woff2" crossorigin>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+  :root {
+    /* Brood War: consola verde fosforescent pe negru. Temă unică, asumată. */
+    --void:      #050805;
+    --void-deep: #020402;
+    --hull:      #0A100C;
+    --hull-2:    #111A13;
+    --line:      #1E2B21;
+    --green:     #3BE06B;
+    --green-lit: #9BFFB8;
+    --green-dim: #1B7A3C;
+    --phosphor:  #5BC47C;
+    --amber:     #D9A441;
+    --text:      #B9D4BF;
+    --muted:     #74907C;
+    --white:     #E6F5E9;
+
+    --display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+    --measure: 68ch;
+    --shell: 1100px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--void);
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection { background: var(--green); color: var(--void-deep); }
+
+  a { color: var(--phosphor); text-decoration: none; }
+  a:hover { color: var(--green-lit); text-decoration: underline; text-underline-offset: 3px; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--display);
+    color: var(--white);
+    text-wrap: balance;
+    margin: 0;
+    line-height: 1.15;
+  }
+
+  p { margin: 0; max-width: var(--measure); }
+
+  .shell {
+    max-width: var(--shell);
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+
+  /* ---------- HERO ---------- */
+
+  .hero {
+    position: relative;
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid var(--line);
+    background:
+      radial-gradient(120% 90% at 50% 8%, rgba(59,224,107,0.13), transparent 55%),
+      radial-gradient(80% 60% at 82% 92%, rgba(91,196,124,0.09), transparent 60%),
+      linear-gradient(180deg, var(--void-deep), var(--void));
+  }
+
+  #starfield {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+  }
+
+  .hero .shell { position: relative; z-index: 1; padding-block: 96px 72px; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .eyebrow::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--green-dim), transparent);
+    max-width: 220px;
+  }
+
+  h1 {
+    font-size: clamp(2.6rem, 7vw, 4.6rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-block: 22px 20px;
+  }
+  h1 .lit {
+    background: linear-gradient(100deg, var(--green-lit), var(--green) 55%, var(--green-dim));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .lede {
+    font-size: clamp(1.05rem, 2.2vw, 1.28rem);
+    color: var(--text);
+    max-width: 56ch;
+  }
+
+  .cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 36px;
+  }
+
+  .btn {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    padding: 14px 26px;
+    border: 1px solid var(--green);
+    background: var(--green);
+    color: var(--void-deep);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .btn:hover {
+    background: var(--green-lit);
+    color: var(--void-deep);
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(59,224,107,0.25);
+  }
+  .btn.ghost {
+    background: transparent;
+    color: var(--green-lit);
+    border-color: var(--line);
+  }
+  .btn.ghost:hover {
+    background: rgba(59,224,107,0.08);
+    border-color: var(--green);
+    color: var(--green-lit);
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 22px 0;
+    margin-top: 56px;
+    border-top: 1px solid var(--line);
+    padding-top: 26px;
+  }
+  .fact {
+    padding-left: 22px;
+    border-left: 1px solid var(--line);
+  }
+  .fact b {
+    display: block;
+    font-family: var(--display);
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--green-lit);
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .fact span {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ---------- SECTIONS ---------- */
+
+  section { padding-block: 84px; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: none; }
+
+  .sec-head { margin-bottom: 34px; }
+  .sec-head h2 {
+    font-size: clamp(1.7rem, 3.6vw, 2.4rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 16px;
+  }
+
+  .prose { display: flex; flex-direction: column; gap: 18px; }
+  .prose p { color: var(--text); }
+  .prose strong { color: var(--white); font-weight: 600; }
+
+  /* ---------- STEPS ---------- */
+
+  .steps {
+    display: grid;
+    gap: 2px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .step {
+    background: var(--hull);
+    padding: 28px 30px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+  .step .num {
+    font-family: var(--display);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--green-dim);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .step h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 8px; }
+  .step p { color: var(--muted); font-size: 0.95rem; }
+  .step p strong { color: var(--text); }
+
+  /* ---------- BOT GRID ---------- */
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .cell {
+    background: var(--hull);
+    padding: 26px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cell h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .cell h3 em {
+    font-family: var(--mono);
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .cell p { font-size: 0.94rem; color: var(--muted); }
+
+  /* ---------- TABLE ---------- */
+
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.94rem;
+    min-width: 520px;
+  }
+  thead th {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--green);
+    text-align: left;
+    padding: 14px 20px;
+    background: var(--hull-2);
+    border-bottom: 1px solid var(--line);
+    font-weight: 500;
+  }
+  tbody td {
+    padding: 13px 20px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+    color: var(--muted);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:nth-child(odd) { background: rgba(10,16,12,0.55); }
+  tbody tr:hover { background: rgba(59,224,107,0.05); }
+  td code {
+    font-family: var(--mono);
+    color: var(--green-lit);
+    font-size: 0.92em;
+    white-space: nowrap;
+  }
+  td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--text); white-space: nowrap; }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--phosphor);
+    border: 1px solid rgba(91,196,124,0.35);
+    padding: 2px 7px;
+    white-space: nowrap;
+  }
+
+  /* ---------- RANK LADDER ---------- */
+
+  .ladder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    margin-top: 8px;
+  }
+  .rung {
+    background: var(--hull);
+    padding: 18px 10px;
+    text-align: center;
+  }
+  .rung b {
+    display: block;
+    font-family: var(--display);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .rung span {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .rung:last-child { background: linear-gradient(180deg, rgba(59,224,107,0.16), var(--hull)); }
+  .rung:last-child b { color: var(--green-lit); }
+
+  .ladder-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  /* ---------- CROWN PANEL ---------- */
+
+  .crown {
+    border: 1px solid var(--green-dim);
+    background:
+      radial-gradient(80% 120% at 15% 0%, rgba(59,224,107,0.12), transparent 60%),
+      var(--hull);
+    padding: 34px 34px 36px;
+    display: grid;
+    gap: 20px;
+  }
+  .crown h3 { font-size: 1.3rem; font-weight: 600; }
+  .crown p { color: var(--text); }
+  .crown ul {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--muted);
+    font-size: 0.95rem;
+    display: grid;
+    gap: 8px;
+  }
+  .crown li::marker { color: var(--green); }
+
+  /* ---------- FAQ ---------- */
+
+  .faq { display: grid; gap: 2px; background: var(--line); border: 1px solid var(--line); }
+  details { background: var(--hull); }
+  details[open] { background: var(--hull-2); }
+  summary {
+    cursor: pointer;
+    padding: 20px 26px;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.02rem;
+    color: var(--white);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: "+";
+    font-family: var(--mono);
+    color: var(--green);
+    font-size: 1.3rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  details[open] summary::after { content: "−"; }
+  details > div {
+    padding: 0 26px 22px;
+    color: var(--muted);
+    font-size: 0.96rem;
+  }
+  details > div p + p { margin-top: 12px; }
+
+
+  /* ---------- LIVE: STAREA SERVERULUI ---------- */
+
+  .live {
+    border: 1px solid var(--line);
+    background:
+      radial-gradient(90% 140% at 0% 0%, rgba(59,224,107,0.07), transparent 62%),
+      var(--hull);
+  }
+  .live-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 22px 26px;
+    border-bottom: 1px solid var(--line);
+    background: var(--hull-2);
+  }
+  .live-count { display: flex; align-items: baseline; gap: 12px; }
+  .live-count b {
+    font-family: var(--display);
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--green-lit);
+    font-variant-numeric: tabular-nums;
+  }
+  .live-lbl {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 0 0 rgba(59,224,107,0.6);
+    align-self: center;
+    flex-shrink: 0;
+    animation: pulse 2.4s ease-out infinite;
+  }
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(59,224,107,0.55); }
+    70%  { box-shadow: 0 0 0 10px rgba(59,224,107,0); }
+    100% { box-shadow: 0 0 0 0 rgba(59,224,107,0); }
+  }
+  .btn.small { padding: 10px 20px; font-size: 0.92rem; }
+
+  .live-body { padding: 24px 26px; display: grid; gap: 26px; }
+  .live-msg { color: var(--muted); font-size: 0.95rem; }
+
+  .live-h {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 14px;
+  }
+
+  .roster { display: flex; flex-wrap: wrap; gap: 10px; }
+  .who {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 14px 8px 8px;
+    border: 1px solid var(--line);
+    background: var(--void);
+    min-width: 0;
+  }
+  .who img, .who .ini {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    background: var(--hull-2);
+    color: var(--green);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+  .who { max-width: 100%; }
+  .who span {
+    font-size: 0.9rem;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+  .who i {
+    font-style: normal;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 18ch;
+    min-width: 0;
+  }
+  .who::before {
+    content: "";
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    flex-shrink: 0;
+  }
+  .who[data-s="idle"]::before { background: var(--amber); }
+  .who[data-s="dnd"]::before  { background: #C8503C; }
+
+  .rooms { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .room {
+    background: var(--void);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 0.92rem;
+  }
+  .room b { font-weight: 500; color: var(--text); }
+  .room[data-busy="1"] { background: var(--hull-2); }
+  .room[data-busy="1"] b { color: var(--green-lit); }
+  .room em {
+    font-style: normal;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: right;
+  }
+  .room[data-busy="1"] em { color: var(--green); }
+
+  .live-foot {
+    padding: 14px 26px 18px;
+    border-top: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    max-width: none;
+  }
+
+  .live[data-state="off"] .dot { animation: none; background: var(--muted); }
+  .live[data-state="off"] .live-count b { color: var(--muted); }
+
+  /* ---------- FOOTER ---------- */
+
+  footer {
+    background: var(--void-deep);
+    border-top: 1px solid var(--line);
+    padding-block: 56px 44px;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .foot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+  .foot-grid h4 {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin: 0 0 14px;
+    font-weight: 500;
+  }
+  .foot-grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  .foot-note {
+    border-top: 1px solid var(--line);
+    padding-top: 22px;
+    font-size: 0.84rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16px; }
+    section { padding-block: 60px; }
+    .hero .shell { padding-block: 72px 56px; }
+    .facts { grid-template-columns: repeat(2, 1fr); gap: 20px 0; }
+    .fact { padding-left: 16px; }
+    .fact b { font-size: 1.45rem; }
+    .step { grid-template-columns: 1fr; gap: 12px; padding: 24px; }
+    .step .num { font-size: 1.5rem; }
+    .crown { padding: 26px 22px 28px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+
+/* ── pagini de continut ─────────────────────────────────────────── */
+.bara{position:sticky;top:0;z-index:50;background:rgba(5,8,5,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bara .shell{display:flex;align-items:center;gap:16px;padding:12px 24px;flex-wrap:wrap}
+.marca{font-family:var(--display);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.82rem;color:var(--green-lit);text-decoration:none;white-space:nowrap}
+.marca:hover{color:var(--white)}
+.bara nav{display:flex;gap:14px;flex-wrap:wrap;margin-left:auto;align-items:center}
+.bara nav a{font-size:.78rem;color:var(--muted);text-decoration:none;white-space:nowrap}
+.bara nav a:hover{color:var(--green-lit)}
+.bara nav a.btn{color:var(--void)}
+.firimituri{font-family:var(--mono);font-size:.72rem;color:var(--muted);padding:22px 0 0}
+.firimituri a{color:var(--phosphor);text-decoration:none}
+.firimituri a:hover{text-decoration:underline}
+.cap{padding:14px 0 8px}
+.cap h1{font-size:clamp(1.8rem,4.2vw,2.7rem);line-height:1.08;margin:.15em 0 .35em}
+.cuprins{background:var(--hull);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:26px 0}
+.cuprins b{font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;color:var(--muted);display:block;margin-bottom:8px}
+.cuprins ol{margin:0;padding-left:1.25em;columns:2;column-gap:28px}
+@media(max-width:640px){.cuprins ol{columns:1}}
+.cuprins li{margin:.25em 0}
+.cuprins a{color:var(--phosphor);text-decoration:none;font-size:.9rem}
+.cuprins a:hover{text-decoration:underline}
+.mai-departe{border-top:1px solid var(--line);margin-top:44px;padding-top:26px}
+.mai-departe h2{font-size:1.1rem;margin-bottom:14px}
+.legaturi{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.legatura{display:block;background:var(--hull);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;transition:.15s}
+.legatura:hover{border-color:var(--green-dim);background:var(--hull-2)}
+.legatura b{display:block;color:var(--green-lit);font-family:var(--display);font-size:.95rem;margin-bottom:4px}
+.legatura span{color:var(--muted);font-size:.82rem;line-height:1.45}
+.chemare{background:linear-gradient(180deg,var(--hull-2),var(--hull));border:1px solid var(--green-dim);border-radius:14px;padding:22px 24px;margin:34px 0 0;text-align:center}
+.chemare p{margin:0 0 14px;color:var(--text)}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Descarcă StarCraft II gratis","description":"StarCraft II e gratuit: campania Wings of Liberty și tot multiplayerul. Ce primești gratis, ce se plătește, cum îl instalezi și ce cerințe de sistem are.","inLanguage":"ro-RO","datePublished":"2026-08-23","dateModified":"2026-08-23","author":{"@type":"Organization","name":"Cetatea Xel'Naga"},"publisher":{"@type":"Organization","name":"StarCraft România — Cetatea Xel'Naga","url":"https://starcraftromania.github.io/"},"mainEntityOfPage":"https://starcraftromania.github.io/descarca-starcraft-2.html","about":{"@type":"VideoGame","name":"StarCraft II","publisher":{"@type":"Organization","name":"Blizzard Entertainment"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"StarCraft România","item":"https://starcraftromania.github.io/"},{"@type":"ListItem","position":2,"name":"Descarcă StarCraft II gratis","item":"https://starcraftromania.github.io/descarca-starcraft-2.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"StarCraft II este cu adevărat gratuit sau e doar o demonstrație?","acceptedAnswer":{"@type":"Answer","text":"Este cu adevărat gratuit. Campania Wings of Liberty și tot modul multiplayer, inclusiv ladder-ul competitiv, sunt complet accesibile fără nicio plată."}},{"@type":"Question","name":"Pot juca ranked fără să plătesc nimic?","acceptedAnswer":{"@type":"Answer","text":"Da. Ai nevoie doar de cele 10 „First Win of the Day\" în Unranked sau contra calculatorului, apoi joci meciurile de plasare."}},{"@type":"Question","name":"Cât spațiu ocupă jocul?","acceptedAnswer":{"@type":"Answer","text":"În jur de 30 GB. Ține cont și de update-uri: patch-urile mari mai adaugă câțiva GB."}},{"@type":"Question","name":"Merge pe un laptop mai vechi?","acceptedAnswer":{"@type":"Answer","text":"Foarte probabil da. Jocul are 16 ani și e mai sensibil la procesor decât la placa video. Coboară setările grafice la Low și verifică."}},{"@type":"Question","name":"Ce regiune aleg din România?","acceptedAnswer":{"@type":"Answer","text":"Europe. Acolo joacă jucătorii români și europeni, iar latența e cea mai mică."}}]}]}</script>
+</head>
+<body>
+<header class="bara"><div class="shell">
+      <a class="marca" href="/">⌁ StarCraft România</a>
+      <nav>
+        <a href="/incepatori.html">Ghid pentru începători</a>
+        <a href="/rase.html">Ce rasă să alegi</a>
+        <a href="/patch-5-0-16.html">Patch 5.0.16 explicat</a>
+        <a href="/jucatori-romani.html">Jucătorii români</a>
+        <a href="/ladder.html">Ladder, ligi și MMR</a>
+        <a class="btn" href="https://discord.gg/ZuGDmpeRm3" rel="noopener">Intră pe Discord</a>
+      </nav>
+    </div></header>
+<main>
+  <div class="shell">
+    <p class="firimituri"><a href="/">StarCraft România</a> › Descarcă StarCraft II gratis</p>
+    <div class="cap">
+      <p class="eyebrow">Instalare</p>
+      <h1>Descarcă StarCraft II gratis</h1>
+      <p class="lede">Din 14 noiembrie 2017, StarCraft II este free-to-play. Nu e o versiune demonstrativă și nu e o perioadă de probă: primești campania Wings of Liberty și absolut tot modul multiplayer, ladder competitiv inclus.</p>
+    </div>
+    <div class="cuprins"><b>Ce găsești mai jos</b><ol><li><a href="#ce-primesti">Ce primești gratis</a></li><li><a href="#ce-costa">Ce costă bani</a></li><li><a href="#pasi">Instalarea, pas cu pas</a></li><li><a href="#cerinte">Cerințe de sistem</a></li><li><a href="#probleme">Probleme frecvente la instalare</a></li><li><a href="#intrebari">Întrebări frecvente</a></li></ol></div>
+    <div class="prose">
+
+<h2 id="ce-primesti">Ce primești gratis</h2>
+<div class="grid">
+  <div class="cell"><b>Campania Wings of Liberty</b><p>Toate cele 29 de misiuni ale campaniei originale Terran. Zeci de ore de joc, și cel mai bun tutorial pentru multiplayer.</p></div>
+  <div class="cell"><b>Multiplayer complet</b><p>1v1, 2v2, 3v3, 4v4, Archon Mode. Toate rasele, toate unitățile, toate hărțile. Fără limitări.</p></div>
+  <div class="cell"><b>Ladder-ul competitiv</b><p>Se deblochează după 10 „First Win of the Day" în Unranked sau contra A.I. Apoi joci meciurile de plasare și primești o ligă.</p></div>
+  <div class="cell"><b>Co-op până la nivel 5</b><p>Toți comandanții, până la nivelul 5. <b>Raynor, Kerrigan și Artanis</b> sunt complet gratuiți, fără plafon de nivel.</p></div>
+  <div class="cell"><b>Custom games și Arcade</b><p>Mii de hărți făcute de comunitate: tower defense, micro trainers, jocuri complet noi construite în editor.</p></div>
+  <div class="cell"><b>Editorul de hărți</b><p>Același editor cu care s-a născut genul MOBA. Gratuit, complet.</p></div>
+</div>
+
+<h2 id="ce-costa">Ce costă bani</h2>
+<p>Doar campaniile suplimentare și cosmeticele. Nimic din ce ai nevoie ca să joci competitiv:</p>
+<ul>
+  <li><b>Heart of the Swarm</b> — campania Zerg (Kerrigan).</li>
+  <li><b>Legacy of the Void</b> — campania Protoss, considerată de mulți cea mai bună dintre cele trei.</li>
+  <li><b>Nova Covert Ops</b> — nouă misiuni separate.</li>
+  <li>Comandanți de co-op peste nivelul 5, skinuri, anunțători, portrete.</li>
+</ul>
+<p class="small">Campaniile intră frecvent la reducere; dacă vrei doar multiplayer, nu-ți trebuie niciuna.</p>
+
+<h2 id="pasi">Instalarea, pas cu pas</h2>
+<div class="steps">
+  <div class="step"><span class="num">1</span><div>Intră pe <b>battle.net</b> și fă-ți un cont Battle.net. E gratuit. Ține minte BattleTag-ul (forma <code>Nume#1234</code>) — îți trebuie ca să-ți găsești prietenii.</div></div>
+  <div class="step"><span class="num">2</span><div>Descarcă <b>aplicația Battle.net</b> de pe același site și instaleaz-o. Prin ea se instalează toate jocurile Blizzard.</div></div>
+  <div class="step"><span class="num">3</span><div>În aplicație, alege <b>StarCraft II</b> din lista din stânga și apasă <b>Install</b>. Descărcarea are câțiva zeci de GB, deci lasă-i timp.</div></div>
+  <div class="step"><span class="num">4</span><div>La prima pornire alege regiunea <b>Europe</b>. Contează: pe Europe joacă românii, iar ping-ul e cel mai mic.</div></div>
+  <div class="step"><span class="num">5</span><div>Joacă tutorialul, apoi campania. Când vrei oameni, nu boți: <a href="/">intră pe serverul comunității</a>.</div></div>
+</div>
+
+<h2 id="cerinte">Cerințe de sistem</h2>
+<p>StarCraft II e un joc din 2010, optimizat pentru procesoare, nu pentru plăci video scumpe. Practic: <b>orice laptop decent de după 2015 îl rulează</b>, iar un PC de gaming modern îl duce la setări maxime fără să transpire.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th></th><th>Minim</th><th>Confortabil</th></tr></thead>
+  <tbody>
+    <tr><td>Sistem</td><td>Windows 10 pe 64 de biți / macOS recent</td><td>Windows 11</td></tr>
+    <tr><td>Procesor</td><td>Dual-core de 2,6 GHz</td><td>Quad-core modern — aici se simte cel mai mult diferența</td></tr>
+    <tr><td>Memorie</td><td>4 GB</td><td>8 GB sau mai mult</td></tr>
+    <tr><td>Placă video</td><td>Orice placă dedicată sau grafică integrată recentă</td><td>Orice placă dedicată din ultimii ani</td></tr>
+    <tr><td>Spațiu</td><td>~30 GB liberi</td><td>SSD, ca să încarce hărțile repede</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="small">Cerințele exacte și actualizate sunt pe site-ul de suport Blizzard. Dacă ai dubii, instalează-l: e gratis, iar dacă merge, merge.</p>
+
+<h2 id="probleme">Probleme frecvente la instalare</h2>
+<ul>
+  <li><b>Descărcarea stă pe loc:</b> închide aplicația Battle.net din bara de sistem și redeschide-o; de obicei se reia de unde a rămas.</li>
+  <li><b>Nu găsești modul multiplayer:</b> trebuie să fii conectat la Battle.net, nu în modul offline.</li>
+  <li><b>Ping mare:</b> verifică regiunea din colțul stâng-sus al meniului. Din România, mereu Europe.</li>
+  <li><b>Nu apare butonul de Ranked:</b> îți lipsesc cele 10 „First Win of the Day". Joacă o victorie pe zi contra calculatorului.</li>
+</ul>
+
+<h2 id="intrebari">Întrebări frecvente</h2>
+<div class="faq">
+  <details><summary>StarCraft II este cu adevărat gratuit sau e doar o demonstrație?</summary><p>Este cu adevărat gratuit. Campania Wings of Liberty și tot modul multiplayer, inclusiv ladder-ul competitiv, sunt complet accesibile fără nicio plată.</p></details>
+  <details><summary>Pot juca ranked fără să plătesc nimic?</summary><p>Da. Ai nevoie doar de cele 10 „First Win of the Day" în Unranked sau contra calculatorului, apoi joci meciurile de plasare.</p></details>
+  <details><summary>Cât spațiu ocupă jocul?</summary><p>În jur de 30 GB. Ține cont și de update-uri: patch-urile mari mai adaugă câțiva GB.</p></details>
+  <details><summary>Merge pe un laptop mai vechi?</summary><p>Foarte probabil da. Jocul are 16 ani și e mai sensibil la procesor decât la placa video. Coboară setările grafice la Low și verifică.</p></details>
+  <details><summary>Ce regiune aleg din România?</summary><p>Europe. Acolo joacă jucătorii români și europeni, iar latența e cea mai mică.</p></details>
+</div>
+    </div>
+    <div class="chemare">
+      <p><b>Joci din România?</b> Cetatea Xel'Naga e serverul de Discord al comunității — oameni cu care să joci 2v2 și customs, clasamente live, trivia și camere de voce. Orice ligă, de la Bronze la GM.</p>
+      <a class="btn" href="https://discord.gg/ZuGDmpeRm3" rel="noopener">Intră pe Discord</a>
+    </div>
+    <section class="mai-departe"><h2>Mai departe</h2><div class="legaturi">
+      <a class="legatura" href="/incepatori.html"><b>Ghid pentru începători</b><span>Cum începi StarCraft II în 2026: instalare gratuită, mecanicile de bază, un build order simplu …</span></a>
+      <a class="legatura" href="/rase.html"><b>Ce rasă să alegi</b><span>Cele trei rase din StarCraft II explicate pe înțelesul unui începător: cum se joacă fiecare, ce…</span></a>
+      <a class="legatura" href="/patch-5-0-16.html"><b>Patch 5.0.16 explicat</b><span>Cel mai mare patch de balans din ultimii 11 ani: start cu 8 muncitori, economie rescrisă, Ghost…</span></a>
+    </div></section>
+  </div>
+</main>
+<footer>
+  <div class="shell foot-grid">
+    <p class="foot-note">© 2026 Cetatea Xel'Naga · <a href="/">StarCraft România</a> · StarCraft II este marcă înregistrată Blizzard Entertainment. Acest site nu este afiliat cu Blizzard.</p>
+  </div>
+</footer>
+</body>
+</html>
