@@ -1,12 +1,12 @@
 {
-  "generat": "2026-08-23T18:21:36.398Z",
+  "generat": "2026-08-23T18:31:36.403Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "Snac",
-      "credite": 439,
+      "credite": 479,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
@@ -32,7 +32,7 @@
     {
       "loc": 1,
       "nume": "Snac",
-      "credite": 439
+      "credite": 479
     },
     {
       "loc": 2,
@@ -47,7 +47,7 @@
     {
       "loc": 4,
       "nume": "fluxveins89",
-      "credite": 321
+      "credite": 361
     },
     {
       "loc": 5,
@@ -83,7 +83,7 @@
   "ladder": [],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 1868,
+    "inCirculatie": 1948,
     "conturiLegate": 0,
     "piloti": 12
   }
