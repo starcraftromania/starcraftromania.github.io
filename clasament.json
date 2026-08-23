@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-23T13:35:25.123Z",
+  "generat": "2026-08-23T13:55:25.133Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -22,7 +22,7 @@
     {
       "loc": 3,
       "nume": "Snac",
-      "credite": 127,
+      "credite": 132,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -42,7 +42,7 @@
     {
       "loc": 3,
       "nume": "Snac",
-      "credite": 127
+      "credite": 132
     },
     {
       "loc": 4,
@@ -83,7 +83,7 @@
   "ladder": [],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 1029,
+    "inCirculatie": 1034,
     "conturiLegate": 0,
     "piloti": 11
   }
