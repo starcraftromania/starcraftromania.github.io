@@ -1,28 +1,28 @@
 {
-  "generat": "2026-08-24T03:42:39.257Z",
+  "generat": "2026-08-24T08:45:11.491Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
-      "nume": "Snac",
-      "credite": 757,
+      "nume": "fluxveins89",
+      "credite": 655,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
     },
     {
       "loc": 2,
-      "nume": "fluxveins89",
-      "credite": 655,
+      "nume": "z3ratul_",
+      "credite": 386,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
     },
     {
       "loc": 3,
-      "nume": "z3ratul_",
-      "credite": 386,
+      "nume": "bleed7769",
+      "credite": 385,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -31,52 +31,52 @@
   "credite": [
     {
       "loc": 1,
-      "nume": "Snac",
-      "credite": 757
-    },
-    {
-      "loc": 2,
       "nume": "fluxveins89",
       "credite": 655
     },
     {
-      "loc": 3,
+      "loc": 2,
       "nume": "z3ratul_",
       "credite": 386
     },
     {
-      "loc": 4,
+      "loc": 3,
       "nume": "bleed7769",
       "credite": 385
     },
     {
-      "loc": 5,
+      "loc": 4,
       "nume": "Frank Castle",
       "credite": 50
     },
     {
-      "loc": 6,
+      "loc": 5,
       "nume": "Aatom",
       "credite": 50
     },
     {
-      "loc": 7,
+      "loc": 6,
       "nume": "Sorin007",
       "credite": 50
     },
     {
-      "loc": 8,
+      "loc": 7,
       "nume": "<ro> Escape",
       "credite": 50
     },
     {
-      "loc": 9,
+      "loc": 8,
       "nume": "laurentiu",
       "credite": 50
     },
     {
-      "loc": 10,
+      "loc": 9,
       "nume": "esKILL",
+      "credite": 50
+    },
+    {
+      "loc": 10,
+      "nume": "florin",
       "credite": 50
     }
   ],
@@ -94,11 +94,6 @@
     },
     {
       "loc": 3,
-      "nume": "Snac",
-      "victorii": 19
-    },
-    {
-      "loc": 4,
       "nume": "fluxveins89",
       "victorii": 1
     }
@@ -106,29 +101,24 @@
   "voce": [
     {
       "loc": 1,
-      "nume": "Snac",
-      "minute": 225
-    },
-    {
-      "loc": 2,
       "nume": "fluxveins89",
       "minute": 215
     },
     {
-      "loc": 3,
+      "loc": 2,
       "nume": "bleed7769",
       "minute": 43
     },
     {
-      "loc": 4,
+      "loc": 3,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
       "minute": 1
     }
   ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 2535,
+    "inCirculatie": 1778,
     "conturiLegate": 0,
-    "piloti": 12
+    "piloti": 11
   }
 }
