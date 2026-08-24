@@ -1,12 +1,12 @@
 {
-  "generat": "2026-08-24T16:02:44.243Z",
+  "generat": "2026-08-24T16:12:44.248Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "credite": 756,
+      "credite": 776,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
@@ -32,7 +32,7 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "credite": 756
+      "credite": 776
     },
     {
       "loc": 2,
@@ -46,37 +46,37 @@
     },
     {
       "loc": 4,
+      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
+      "credite": 56
+    },
+    {
+      "loc": 5,
       "nume": "Frank Castle",
       "credite": 50
     },
     {
-      "loc": 5,
+      "loc": 6,
       "nume": "Aatom",
       "credite": 50
     },
     {
-      "loc": 6,
+      "loc": 7,
       "nume": "Sorin007",
       "credite": 50
     },
     {
-      "loc": 7,
+      "loc": 8,
       "nume": "<ro> Escape",
       "credite": 50
     },
     {
-      "loc": 8,
+      "loc": 9,
       "nume": "laurentiu",
       "credite": 50
     },
     {
-      "loc": 9,
-      "nume": "esKILL",
-      "credite": 50
-    },
-    {
       "loc": 10,
-      "nume": "florin",
+      "nume": "esKILL",
       "credite": 50
     }
   ],
@@ -117,12 +117,12 @@
     {
       "loc": 4,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "minute": 18
+      "minute": 28
     }
   ],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 2192,
+    "inCirculatie": 2232,
     "conturiLegate": 0,
     "piloti": 11
   }
