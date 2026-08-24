@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-24T17:52:44.284Z",
+  "generat": "2026-08-24T18:02:44.288Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -47,7 +47,7 @@
     {
       "loc": 4,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 256
+      "credite": 276
     },
     {
       "loc": 5,
@@ -107,7 +107,7 @@
     {
       "loc": 2,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "minute": 128
+      "minute": 138
     },
     {
       "loc": 3,
@@ -122,7 +122,7 @@
   ],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 2462,
+    "inCirculatie": 2482,
     "conturiLegate": 0,
     "piloti": 11
   }
