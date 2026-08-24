@@ -1,20 +1,20 @@
 {
-  "generat": "2026-08-24T15:42:44.236Z",
+  "generat": "2026-08-24T15:52:44.240Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
-      "nume": "fluxveins89",
-      "credite": 655,
+      "nume": "z3ratul_",
+      "credite": 656,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
     },
     {
       "loc": 2,
-      "nume": "z3ratul_",
-      "credite": 556,
+      "nume": "fluxveins89",
+      "credite": 655,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
@@ -31,13 +31,13 @@
   "credite": [
     {
       "loc": 1,
-      "nume": "fluxveins89",
-      "credite": 655
+      "nume": "z3ratul_",
+      "credite": 656
     },
     {
       "loc": 2,
-      "nume": "z3ratul_",
-      "credite": 556
+      "nume": "fluxveins89",
+      "credite": 655
     },
     {
       "loc": 3,
@@ -117,12 +117,12 @@
     {
       "loc": 4,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "minute": 1
+      "minute": 8
     }
   ],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 1958,
+    "inCirculatie": 2072,
     "conturiLegate": 0,
     "piloti": 11
   }
