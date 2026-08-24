@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-23T20:32:39.108Z",
+  "generat": "2026-08-24T03:42:39.257Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -21,8 +21,8 @@
     },
     {
       "loc": 3,
-      "nume": "bleed7769",
-      "credite": 385,
+      "nume": "z3ratul_",
+      "credite": 386,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -41,13 +41,13 @@
     },
     {
       "loc": 3,
-      "nume": "bleed7769",
-      "credite": 385
+      "nume": "z3ratul_",
+      "credite": 386
     },
     {
       "loc": 4,
-      "nume": "z3ratul_",
-      "credite": 376
+      "nume": "bleed7769",
+      "credite": 385
     },
     {
       "loc": 5,
@@ -85,7 +85,7 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "victorii": 40
+      "victorii": 42
     },
     {
       "loc": 2,
@@ -127,7 +127,7 @@
   ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 2525,
+    "inCirculatie": 2535,
     "conturiLegate": 0,
     "piloti": 12
   }
