@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-25T07:05:55.514Z",
+  "generat": "2026-08-25T07:15:55.517Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -51,12 +51,12 @@
     },
     {
       "loc": 5,
-      "nume": "Frank Castle",
-      "credite": 50
+      "nume": "Aatom",
+      "credite": 100
     },
     {
       "loc": 6,
-      "nume": "Aatom",
+      "nume": "Frank Castle",
       "credite": 50
     },
     {
@@ -94,6 +94,11 @@
     },
     {
       "loc": 3,
+      "nume": "Aatom",
+      "victorii": 2
+    },
+    {
+      "loc": 4,
       "nume": "fluxveins89",
       "victorii": 1
     }
@@ -122,7 +127,7 @@
   ],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 2833,
+    "inCirculatie": 2883,
     "conturiLegate": 0,
     "piloti": 11
   }
