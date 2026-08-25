@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-25T15:55:55.683Z",
+  "generat": "2026-08-25T16:05:55.685Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -22,7 +22,7 @@
     {
       "loc": 3,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 422,
+      "credite": 442,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -42,7 +42,7 @@
     {
       "loc": 3,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 422
+      "credite": 442
     },
     {
       "loc": 4,
@@ -106,13 +106,13 @@
   "voce": [
     {
       "loc": 1,
-      "nume": "fluxveins89",
-      "minute": 215
+      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
+      "minute": 221
     },
     {
       "loc": 2,
-      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "minute": 211
+      "nume": "fluxveins89",
+      "minute": 215
     },
     {
       "loc": 3,
@@ -127,7 +127,7 @@
   ],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 3253,
+    "inCirculatie": 3273,
     "conturiLegate": 0,
     "piloti": 11
   }
