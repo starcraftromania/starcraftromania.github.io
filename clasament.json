@@ -1,12 +1,12 @@
 {
-  "generat": "2026-08-25T17:25:55.707Z",
+  "generat": "2026-08-25T17:35:55.708Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "credite": 1668,
+      "credite": 1688,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
@@ -22,7 +22,7 @@
     {
       "loc": 3,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 602,
+      "credite": 622,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -32,7 +32,7 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "credite": 1668
+      "credite": 1688
     },
     {
       "loc": 2,
@@ -42,7 +42,7 @@
     {
       "loc": 3,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 602
+      "credite": 622
     },
     {
       "loc": 4,
@@ -107,7 +107,7 @@
     {
       "loc": 1,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "minute": 301
+      "minute": 311
     },
     {
       "loc": 2,
@@ -117,7 +117,7 @@
     {
       "loc": 3,
       "nume": "z3ratul_",
-      "minute": 91
+      "minute": 101
     },
     {
       "loc": 4,
@@ -127,7 +127,7 @@
   ],
   "statistici": {
     "membri": 18,
-    "inCirculatie": 3745,
+    "inCirculatie": 3785,
     "conturiLegate": 0,
     "piloti": 11
   }
