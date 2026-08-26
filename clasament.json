@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-26T15:45:56.676Z",
+  "generat": "2026-08-26T15:55:56.687Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -47,7 +47,7 @@
     {
       "loc": 4,
       "nume": "bleed7769",
-      "credite": 595
+      "credite": 620
     },
     {
       "loc": 5,
@@ -90,7 +90,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "victorii": 46
+      "victorii": 47
     },
     {
       "loc": 3,
@@ -127,7 +127,7 @@
   ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 4043,
+    "inCirculatie": 4068,
     "conturiLegate": 0,
     "piloti": 12
   }
