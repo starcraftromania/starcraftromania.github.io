@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-26T15:55:56.687Z",
+  "generat": "2026-08-26T16:05:56.699Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -13,16 +13,16 @@
     },
     {
       "loc": 2,
-      "nume": "fluxveins89",
-      "credite": 655,
+      "nume": "bleed7769",
+      "credite": 670,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
     },
     {
       "loc": 3,
-      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 626,
+      "nume": "fluxveins89",
+      "credite": 655,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -36,18 +36,18 @@
     },
     {
       "loc": 2,
+      "nume": "bleed7769",
+      "credite": 670
+    },
+    {
+      "loc": 3,
       "nume": "fluxveins89",
       "credite": 655
     },
     {
-      "loc": 3,
+      "loc": 4,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
       "credite": 626
-    },
-    {
-      "loc": 4,
-      "nume": "bleed7769",
-      "credite": 620
     },
     {
       "loc": 5,
@@ -56,17 +56,17 @@
     },
     {
       "loc": 6,
+      "nume": "<ro> Escape",
+      "credite": 56
+    },
+    {
+      "loc": 7,
       "nume": "Frank Castle",
       "credite": 50
     },
     {
-      "loc": 7,
-      "nume": "Sorin007",
-      "credite": 50
-    },
-    {
       "loc": 8,
-      "nume": "<ro> Escape",
+      "nume": "Sorin007",
       "credite": 50
     },
     {
@@ -90,7 +90,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "victorii": 47
+      "victorii": 49
     },
     {
       "loc": 3,
@@ -123,11 +123,16 @@
       "loc": 4,
       "nume": "bleed7769",
       "minute": 43
+    },
+    {
+      "loc": 5,
+      "nume": "<ro> Escape",
+      "minute": 3
     }
   ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 4068,
+    "inCirculatie": 4124,
     "conturiLegate": 0,
     "piloti": 12
   }
