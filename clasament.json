@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-26T17:15:56.758Z",
+  "generat": "2026-08-26T17:25:56.769Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -52,7 +52,7 @@
     {
       "loc": 5,
       "nume": "<ro> Escape",
-      "credite": 196
+      "credite": 216
     },
     {
       "loc": 6,
@@ -122,7 +122,7 @@
     {
       "loc": 4,
       "nume": "<ro> Escape",
-      "minute": 73
+      "minute": 83
     },
     {
       "loc": 5,
@@ -132,7 +132,7 @@
   ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 4264,
+    "inCirculatie": 4284,
     "conturiLegate": 0,
     "piloti": 12
   }
