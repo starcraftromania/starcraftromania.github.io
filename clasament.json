@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-28T20:32:01.793Z",
+  "generat": "2026-08-28T23:52:01.983Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -51,13 +51,13 @@
     },
     {
       "loc": 5,
-      "nume": "<ro> Escape",
-      "credite": 222
+      "nume": "Aatom",
+      "credite": 450
     },
     {
       "loc": 6,
-      "nume": "Aatom",
-      "credite": 125
+      "nume": "<ro> Escape",
+      "credite": 222
     },
     {
       "loc": 7,
@@ -103,7 +103,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "victorii": 3
+      "victorii": 4
     },
     {
       "loc": 4,
@@ -140,7 +140,7 @@
   ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 7482,
+    "inCirculatie": 7807,
     "conturiLegate": 1,
     "piloti": 12
   }
