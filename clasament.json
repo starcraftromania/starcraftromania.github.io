@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-29T15:42:02.813Z",
+  "generat": "2026-08-29T16:12:02.897Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -83,10 +83,10 @@
   "ladder": [
     {
       "nume": "IlIlIlIlIlIl",
-      "mmr": 3873,
+      "mmr": 3911,
       "liga": "Diamond",
       "rasa": "Protoss",
-      "meciuri": 9
+      "meciuri": 11
     }
   ],
   "trivia": [
