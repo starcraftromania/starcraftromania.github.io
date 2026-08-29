@@ -1,5 +1,5 @@
 {
-  "generat": "2026-08-29T10:42:02.602Z",
+  "generat": "2026-08-29T13:02:02.748Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -21,8 +21,8 @@
     },
     {
       "loc": 3,
-      "nume": "fluxveins89",
-      "credite": 655,
+      "nume": "Aatom",
+      "credite": 775,
       "titlu": "Boierul de Vespene",
       "subtitlu": "bogat, dar încă politicos",
       "emoji": "💠"
@@ -41,18 +41,18 @@
     },
     {
       "loc": 3,
+      "nume": "Aatom",
+      "credite": 775
+    },
+    {
+      "loc": 4,
       "nume": "fluxveins89",
       "credite": 655
     },
     {
-      "loc": 4,
+      "loc": 5,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
       "credite": 626
-    },
-    {
-      "loc": 5,
-      "nume": "Aatom",
-      "credite": 450
     },
     {
       "loc": 6,
@@ -103,7 +103,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "victorii": 4
+      "victorii": 5
     },
     {
       "loc": 4,
@@ -140,7 +140,7 @@
   ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 8407,
+    "inCirculatie": 8732,
     "conturiLegate": 1,
     "piloti": 12
   }
