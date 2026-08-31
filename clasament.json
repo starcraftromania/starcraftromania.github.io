@@ -1,12 +1,12 @@
 {
-  "generat": "2026-08-31T12:06:36.289Z",
+  "generat": "2026-08-31T12:26:36.291Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "credite": 5120,
+      "credite": 5170,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
@@ -32,7 +32,7 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "credite": 5120
+      "credite": 5170
     },
     {
       "loc": 2,
@@ -93,7 +93,7 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "victorii": 179
+      "victorii": 181
     },
     {
       "loc": 2,
@@ -140,7 +140,7 @@
   ],
   "statistici": {
     "membri": 19,
-    "inCirculatie": 11618,
+    "inCirculatie": 11668,
     "conturiLegate": 1,
     "piloti": 12
   }
