@@ -1,20 +1,20 @@
 {
-  "generat": "2026-09-01T08:26:36.730Z",
+  "generat": "2026-09-01T08:36:36.705Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
-      "nume": "z3ratul_",
-      "credite": 5270,
+      "nume": "bleed7769",
+      "credite": 5287,
       "titlu": "Regele Regilor",
       "subtitlu": "stăpânul absolut al creditelor",
       "emoji": "👑"
     },
     {
       "loc": 2,
-      "nume": "bleed7769",
-      "credite": 5187,
+      "nume": "z3ratul_",
+      "credite": 5270,
       "titlu": "Marele Uzurpator",
       "subtitlu": "stă la doi pași de tron și numără",
       "emoji": "🗡️"
@@ -31,13 +31,13 @@
   "credite": [
     {
       "loc": 1,
-      "nume": "z3ratul_",
-      "credite": 5270
+      "nume": "bleed7769",
+      "credite": 5287
     },
     {
       "loc": 2,
-      "nume": "bleed7769",
-      "credite": 5187
+      "nume": "z3ratul_",
+      "credite": 5270
     },
     {
       "loc": 3,
@@ -98,7 +98,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "victorii": 83
+      "victorii": 87
     },
     {
       "loc": 3,
@@ -140,7 +140,7 @@
   ],
   "statistici": {
     "membri": 20,
-    "inCirculatie": 13443,
+    "inCirculatie": 13543,
     "conturiLegate": 1,
     "piloti": 13
   }
