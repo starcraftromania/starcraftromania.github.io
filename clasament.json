@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-05T01:29:37.163Z",
+  "generat": "2026-09-05T07:28:07.207Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -18,7 +18,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 1425,
+      "credite": 1725,
       "titlu": "Boierul de Vespene"
     }
   ],
@@ -36,7 +36,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 1425
+      "credite": 1725
     },
     {
       "loc": 4,
@@ -100,7 +100,7 @@
   "voce": [],
   "statistici": {
     "membri": 11,
-    "inCirculatie": 19181,
+    "inCirculatie": 19481,
     "conturiLegate": 0,
     "piloti": 11
   }
