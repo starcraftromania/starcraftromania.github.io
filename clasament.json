@@ -1,33 +1,21 @@
 {
-  "generat": "2026-09-03T13:36:39.298Z",
+  "generat": "2026-09-05T00:59:07.276Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
-  "regi": [
-    {
-      "loc": 1,
+  "regi": {
+    "rege": {
       "nume": "bleed7769",
-      "credite": 8612,
-      "titlu": "Regele Regilor",
-      "subtitlu": "stăpânul absolut al creditelor",
-      "emoji": "👑"
+      "credite": 8612
     },
-    {
-      "loc": 2,
+    "uzurpator": {
       "nume": "z3ratul_",
-      "credite": 7333,
-      "titlu": "Marele Uzurpator",
-      "subtitlu": "stă la doi pași de tron și numără",
-      "emoji": "🗡️"
+      "credite": 7333
     },
-    {
-      "loc": 3,
+    "boier": {
       "nume": "Aatom",
-      "credite": 1425,
-      "titlu": "Boierul de Vespene",
-      "subtitlu": "bogat, dar încă politicos",
-      "emoji": "💠"
+      "credite": 1425
     }
-  ],
+  },
   "credite": [
     {
       "loc": 1,
@@ -80,15 +68,7 @@
       "credite": 50
     }
   ],
-  "ladder": [
-    {
-      "nume": "IlIlIlIlIlIl",
-      "mmr": 3911,
-      "liga": "Diamond",
-      "rasa": "Protoss",
-      "meciuri": 11
-    }
-  ],
+  "ladder": [],
   "trivia": [
     {
       "loc": 1,
@@ -111,37 +91,11 @@
       "victorii": 1
     }
   ],
-  "voce": [
-    {
-      "loc": 1,
-      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "minute": 315
-    },
-    {
-      "loc": 2,
-      "nume": "fluxveins89",
-      "minute": 215
-    },
-    {
-      "loc": 3,
-      "nume": "z3ratul_",
-      "minute": 147
-    },
-    {
-      "loc": 4,
-      "nume": "<ro> Escape",
-      "minute": 86
-    },
-    {
-      "loc": 5,
-      "nume": "bleed7769",
-      "minute": 45
-    }
-  ],
+  "voce": [],
   "statistici": {
-    "membri": 20,
-    "inCirculatie": 19231,
-    "conturiLegate": 1,
-    "piloti": 13
+    "membri": 11,
+    "inCirculatie": 19181,
+    "conturiLegate": 0,
+    "piloti": 11
   }
 }
