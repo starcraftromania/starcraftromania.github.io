@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-05T17:38:07.452Z",
+  "generat": "2026-09-05T17:48:07.453Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -51,7 +51,7 @@
     {
       "loc": 6,
       "nume": "macelandru",
-      "credite": 498
+      "credite": 518
     },
     {
       "loc": 7,
@@ -108,18 +108,18 @@
   "voce": [
     {
       "loc": 1,
-      "nume": "z3ratul_",
-      "minute": 140
+      "nume": "macelandru",
+      "minute": 141
     },
     {
       "loc": 2,
-      "nume": "macelandru",
-      "minute": 131
+      "nume": "z3ratul_",
+      "minute": 140
     }
   ],
   "statistici": {
     "membri": 12,
-    "inCirculatie": 21762,
+    "inCirculatie": 21802,
     "conturiLegate": 1,
     "piloti": 12
   }
