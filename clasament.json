@@ -1,21 +1,27 @@
 {
-  "generat": "2026-09-05T00:59:07.276Z",
+  "generat": "2026-09-05T01:29:37.163Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
-  "regi": {
-    "rege": {
+  "regi": [
+    {
+      "loc": 1,
       "nume": "bleed7769",
-      "credite": 8612
+      "credite": 8612,
+      "titlu": "Regele Regilor"
     },
-    "uzurpator": {
+    {
+      "loc": 2,
       "nume": "z3ratul_",
-      "credite": 7333
+      "credite": 7333,
+      "titlu": "Marele Uzurpator"
     },
-    "boier": {
+    {
+      "loc": 3,
       "nume": "Aatom",
-      "credite": 1425
+      "credite": 1425,
+      "titlu": "Boierul de Vespene"
     }
-  },
+  ],
   "credite": [
     {
       "loc": 1,
