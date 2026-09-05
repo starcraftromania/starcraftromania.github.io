@@ -1,18 +1,18 @@
 {
-  "generat": "2026-09-05T15:38:07.399Z",
+  "generat": "2026-09-05T15:48:07.399Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 8962,
+      "credite": 8987,
       "titlu": "Regele Regilor"
     },
     {
       "loc": 2,
       "nume": "z3ratul_",
-      "credite": 7681,
+      "credite": 7721,
       "titlu": "Marele Uzurpator"
     },
     {
@@ -26,12 +26,12 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 8962
+      "credite": 8987
     },
     {
       "loc": 2,
       "nume": "z3ratul_",
-      "credite": 7681
+      "credite": 7721
     },
     {
       "loc": 3,
@@ -56,7 +56,7 @@
     {
       "loc": 7,
       "nume": "macelandru",
-      "credite": 94
+      "credite": 134
     },
     {
       "loc": 8,
@@ -92,7 +92,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "victorii": 162
+      "victorii": 163
     },
     {
       "loc": 3,
@@ -109,17 +109,17 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "minute": 37
+      "minute": 47
     },
     {
       "loc": 2,
       "nume": "macelandru",
-      "minute": 11
+      "minute": 21
     }
   ],
   "statistici": {
     "membri": 12,
-    "inCirculatie": 20509,
+    "inCirculatie": 20654,
     "conturiLegate": 1,
     "piloti": 12
   }
