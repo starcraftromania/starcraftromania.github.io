@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-05T08:38:07.236Z",
+  "generat": "2026-09-05T08:48:07.237Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -74,7 +74,15 @@
       "credite": 50
     }
   ],
-  "ladder": [],
+  "ladder": [
+    {
+      "nume": "IlIlIlIlIlIl",
+      "mmr": 3911,
+      "liga": "Diamond",
+      "rasa": "Protoss",
+      "meciuri": 11
+    }
+  ],
   "trivia": [
     {
       "loc": 1,
@@ -101,7 +109,7 @@
   "statistici": {
     "membri": 11,
     "inCirculatie": 19531,
-    "conturiLegate": 0,
+    "conturiLegate": 1,
     "piloti": 11
   }
 }
