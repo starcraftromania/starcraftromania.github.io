@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-07T09:18:08.763Z",
+  "generat": "2026-09-07T09:38:08.794Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -18,7 +18,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 2150,
+      "credite": 2200,
       "titlu": "Boierul de Vespene"
     }
   ],
@@ -36,7 +36,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 2150
+      "credite": 2200
     },
     {
       "loc": 4,
@@ -65,12 +65,12 @@
     },
     {
       "loc": 9,
-      "nume": "Frank Castle",
-      "credite": 50
+      "nume": "Akashi",
+      "credite": 100
     },
     {
       "loc": 10,
-      "nume": "laurentiu",
+      "nume": "Frank Castle",
       "credite": 50
     }
   ],
@@ -97,15 +97,20 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "victorii": 12
+      "victorii": 14
     },
     {
       "loc": 4,
+      "nume": "Akashi",
+      "victorii": 2
+    },
+    {
+      "loc": 5,
       "nume": "fluxveins89",
       "victorii": 1
     },
     {
-      "loc": 5,
+      "loc": 6,
       "nume": "idk123idk123dasa",
       "victorii": 1
     }
@@ -139,7 +144,7 @@
   ],
   "statistici": {
     "membri": 14,
-    "inCirculatie": 29390,
+    "inCirculatie": 29490,
     "conturiLegate": 1,
     "piloti": 14
   }
