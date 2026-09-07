@@ -1,12 +1,12 @@
 {
-  "generat": "2026-09-07T16:48:09.009Z",
+  "generat": "2026-09-07T18:48:09.126Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 12210,
+      "credite": 12235,
       "titlu": "Regele Regilor"
     },
     {
@@ -26,7 +26,7 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 12210
+      "credite": 12235
     },
     {
       "loc": 2,
@@ -92,7 +92,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "victorii": 189
+      "victorii": 190
     },
     {
       "loc": 3,
@@ -106,12 +106,12 @@
     },
     {
       "loc": 5,
-      "nume": "fluxveins89",
-      "victorii": 1
+      "nume": "idk123idk123dasa",
+      "victorii": 2
     },
     {
       "loc": 6,
-      "nume": "idk123idk123dasa",
+      "nume": "fluxveins89",
       "victorii": 1
     }
   ],
@@ -144,7 +144,7 @@
   ],
   "statistici": {
     "membri": 14,
-    "inCirculatie": 30166,
+    "inCirculatie": 30216,
     "conturiLegate": 1,
     "piloti": 14
   }
