@@ -1,12 +1,12 @@
 {
-  "generat": "2026-09-07T16:38:09.009Z",
+  "generat": "2026-09-07T16:48:09.009Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 11910,
+      "credite": 12210,
       "titlu": "Regele Regilor"
     },
     {
@@ -26,7 +26,7 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 11910
+      "credite": 12210
     },
     {
       "loc": 2,
@@ -144,7 +144,7 @@
   ],
   "statistici": {
     "membri": 14,
-    "inCirculatie": 29866,
+    "inCirculatie": 30166,
     "conturiLegate": 1,
     "piloti": 14
   }
