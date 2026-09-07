@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-07T15:38:08.978Z",
+  "generat": "2026-09-07T15:58:09.007Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -12,7 +12,7 @@
     {
       "loc": 2,
       "nume": "z3ratul_",
-      "credite": 10980,
+      "credite": 10981,
       "titlu": "Marele Uzurpator"
     },
     {
@@ -31,7 +31,7 @@
     {
       "loc": 2,
       "nume": "z3ratul_",
-      "credite": 10980
+      "credite": 10981
     },
     {
       "loc": 3,
@@ -87,7 +87,7 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "victorii": 310
+      "victorii": 311
     },
     {
       "loc": 2,
@@ -144,7 +144,7 @@
   ],
   "statistici": {
     "membri": 14,
-    "inCirculatie": 29840,
+    "inCirculatie": 29841,
     "conturiLegate": 1,
     "piloti": 14
   }
