@@ -1,12 +1,12 @@
 {
-  "generat": "2026-09-08T19:58:09.999Z",
+  "generat": "2026-09-08T20:08:10.023Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 13155,
+      "credite": 13175,
       "titlu": "Regele Regilor"
     },
     {
@@ -18,7 +18,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 2800,
+      "credite": 2850,
       "titlu": "Boierul de Vespene"
     }
   ],
@@ -26,7 +26,7 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 13155
+      "credite": 13175
     },
     {
       "loc": 2,
@@ -36,12 +36,12 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 2800
+      "credite": 2850
     },
     {
       "loc": 4,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 1626
+      "credite": 1646
     },
     {
       "loc": 5,
@@ -51,7 +51,7 @@
     {
       "loc": 6,
       "nume": "Sorin007",
-      "credite": 574
+      "credite": 594
     },
     {
       "loc": 7,
@@ -71,7 +71,7 @@
     {
       "loc": 10,
       "nume": "NoHai",
-      "credite": 76
+      "credite": 86
     }
   ],
   "ladder": [
@@ -97,7 +97,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "victorii": 26
+      "victorii": 28
     },
     {
       "loc": 4,
@@ -119,12 +119,12 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "minute": 445
+      "minute": 455
     },
     {
       "loc": 2,
       "nume": "Sorin007",
-      "minute": 262
+      "minute": 272
     },
     {
       "loc": 3,
@@ -139,17 +139,17 @@
     {
       "loc": 5,
       "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "minute": 121
+      "minute": 131
     },
     {
       "loc": 6,
       "nume": "NoHai",
-      "minute": 13
+      "minute": 18
     }
   ],
   "statistici": {
     "membri": 15,
-    "inCirculatie": 34330,
+    "inCirculatie": 34470,
     "conturiLegate": 1,
     "piloti": 15
   }
