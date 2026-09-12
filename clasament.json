@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-12T08:43:31.945Z",
+  "generat": "2026-09-12T13:43:32.371Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -17,8 +17,8 @@
     },
     {
       "loc": 3,
-      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 3544,
+      "nume": "Aatom",
+      "credite": 3651,
       "titlu": "Boierul de Vespene"
     }
   ],
@@ -35,13 +35,13 @@
     },
     {
       "loc": 3,
-      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
-      "credite": 3544
+      "nume": "Aatom",
+      "credite": 3651
     },
     {
       "loc": 4,
-      "nume": "Aatom",
-      "credite": 3325
+      "nume": "𝐀𝐑𝐊𝐈𝐌𝐎𝐍𝐃",
+      "credite": 3544
     },
     {
       "loc": 5,
@@ -97,7 +97,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "victorii": 35
+      "victorii": 36
     },
     {
       "loc": 4,
@@ -159,7 +159,7 @@
   ],
   "statistici": {
     "membri": 16,
-    "inCirculatie": 44564,
+    "inCirculatie": 44890,
     "conturiLegate": 1,
     "piloti": 16
   }
