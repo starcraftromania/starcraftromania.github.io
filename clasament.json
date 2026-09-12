@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-12T22:53:32.138Z",
+  "generat": "2026-09-12T23:03:32.668Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -51,7 +51,7 @@
     {
       "loc": 6,
       "nume": "Sorin007",
-      "credite": 920
+      "credite": 932
     },
     {
       "loc": 7,
@@ -119,7 +119,7 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "minute": 1229
+      "minute": 1233
     },
     {
       "loc": 2,
@@ -129,7 +129,7 @@
     {
       "loc": 3,
       "nume": "Sorin007",
-      "minute": 435
+      "minute": 441
     },
     {
       "loc": 4,
@@ -159,7 +159,7 @@
   ],
   "statistici": {
     "membri": 16,
-    "inCirculatie": 47149,
+    "inCirculatie": 47171,
     "conturiLegate": 1,
     "piloti": 16
   }
