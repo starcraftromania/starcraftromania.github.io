@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-18T13:13:37.638Z",
+  "generat": "2026-09-18T13:23:36.624Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -12,13 +12,13 @@
     {
       "loc": 2,
       "nume": "z3ratul_",
-      "credite": 16618,
+      "credite": 16693,
       "titlu": "Marele Uzurpator"
     },
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 5953,
+      "credite": 6028,
       "titlu": "Boierul de Vespene"
     }
   ],
@@ -31,12 +31,12 @@
     {
       "loc": 2,
       "nume": "z3ratul_",
-      "credite": 16618
+      "credite": 16693
     },
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 5953
+      "credite": 6028
     },
     {
       "loc": 4,
@@ -87,7 +87,7 @@
     {
       "loc": 1,
       "nume": "z3ratul_",
-      "victorii": 380
+      "victorii": 383
     },
     {
       "loc": 2,
@@ -97,7 +97,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "victorii": 80
+      "victorii": 83
     },
     {
       "loc": 4,
@@ -164,7 +164,7 @@
   ],
   "statistici": {
     "membri": 16,
-    "inCirculatie": 55525,
+    "inCirculatie": 55675,
     "conturiLegate": 1,
     "piloti": 16
   }
