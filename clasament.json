@@ -1,12 +1,12 @@
 {
-  "generat": "2026-09-20T22:03:38.545Z",
+  "generat": "2026-09-20T22:13:39.019Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 20677,
+      "credite": 20697,
       "titlu": "Regele Regilor"
     },
     {
@@ -18,7 +18,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 6253,
+      "credite": 6278,
       "titlu": "Boierul de Vespene"
     }
   ],
@@ -26,7 +26,7 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "credite": 20677
+      "credite": 20697
     },
     {
       "loc": 2,
@@ -36,7 +36,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 6253
+      "credite": 6278
     },
     {
       "loc": 4,
@@ -97,7 +97,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "victorii": 92
+      "victorii": 93
     },
     {
       "loc": 4,
@@ -119,7 +119,7 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "minute": 2534
+      "minute": 2544
     },
     {
       "loc": 2,
@@ -169,7 +169,7 @@
   ],
   "statistici": {
     "membri": 16,
-    "inCirculatie": 61402,
+    "inCirculatie": 61447,
     "conturiLegate": 1,
     "piloti": 16
   }
