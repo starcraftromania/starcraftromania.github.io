@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-21T19:33:39.276Z",
+  "generat": "2026-09-21T19:43:39.756Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -12,13 +12,13 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 20735,
+      "credite": 20755,
       "titlu": "Marele Uzurpator"
     },
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 6303,
+      "credite": 6328,
       "titlu": "Boierul de Vespene"
     }
   ],
@@ -31,12 +31,12 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 20735
+      "credite": 20755
     },
     {
       "loc": 3,
       "nume": "Aatom",
-      "credite": 6303
+      "credite": 6328
     },
     {
       "loc": 4,
@@ -51,7 +51,7 @@
     {
       "loc": 6,
       "nume": "Ketodar",
-      "credite": 1140
+      "credite": 1160
     },
     {
       "loc": 7,
@@ -97,7 +97,7 @@
     {
       "loc": 3,
       "nume": "Aatom",
-      "victorii": 94
+      "victorii": 95
     },
     {
       "loc": 4,
@@ -119,7 +119,7 @@
     {
       "loc": 1,
       "nume": "bleed7769",
-      "minute": 2563
+      "minute": 2573
     },
     {
       "loc": 2,
@@ -129,7 +129,7 @@
     {
       "loc": 3,
       "nume": "Ketodar",
-      "minute": 545
+      "minute": 555
     },
     {
       "loc": 4,
@@ -169,7 +169,7 @@
   ],
   "statistici": {
     "membri": 16,
-    "inCirculatie": 63968,
+    "inCirculatie": 64037,
     "conturiLegate": 1,
     "piloti": 16
   }
