@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-22T09:33:40.174Z",
+  "generat": "2026-09-22T12:43:40.257Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -12,7 +12,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 21289,
+      "credite": 21590,
       "titlu": "Marele Uzurpator"
     },
     {
@@ -31,7 +31,7 @@
     {
       "loc": 2,
       "nume": "bleed7769",
-      "credite": 21289
+      "credite": 21590
     },
     {
       "loc": 3,
@@ -169,7 +169,7 @@
   ],
   "statistici": {
     "membri": 16,
-    "inCirculatie": 65863,
+    "inCirculatie": 66164,
     "conturiLegate": 1,
     "piloti": 16
   }
