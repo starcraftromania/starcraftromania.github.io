@@ -1,5 +1,5 @@
 {
-  "generat": "2026-09-26T19:43:44.051Z",
+  "generat": "2026-09-26T19:53:44.934Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -51,7 +51,7 @@
     {
       "loc": 6,
       "nume": "Ketodar",
-      "credite": 1922
+      "credite": 1942
     },
     {
       "loc": 7,
@@ -124,7 +124,7 @@
     {
       "loc": 2,
       "nume": "Ketodar",
-      "minute": 936
+      "minute": 947
     },
     {
       "loc": 3,
@@ -169,7 +169,7 @@
   ],
   "statistici": {
     "membri": 16,
-    "inCirculatie": 77594,
+    "inCirculatie": 77614,
     "conturiLegate": 1,
     "piloti": 16
   }
