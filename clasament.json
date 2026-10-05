@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-05T09:23:51.889Z",
+  "generat": "2026-10-05T14:33:51.582Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -41,7 +41,7 @@
     {
       "loc": 4,
       "nume": "fluxveins89",
-      "credite": 6390
+      "credite": 6690
     },
     {
       "loc": 5,
@@ -169,7 +169,7 @@
   ],
   "statistici": {
     "membri": 17,
-    "inCirculatie": 89003,
+    "inCirculatie": 89303,
     "conturiLegate": 1,
     "piloti": 17
   }
