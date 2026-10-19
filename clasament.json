@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-18T16:34:01.888Z",
+  "generat": "2026-10-19T07:24:02.289Z",
   "sursa": "Curierul Xel'Naga",
   "creditSC2Pulse": "https://sc2pulse.nephest.com/sc2",
   "regi": [
@@ -168,9 +168,9 @@
     }
   ],
   "statistici": {
-    "membri": 19,
-    "inCirculatie": 101267,
+    "membri": 20,
+    "inCirculatie": 101317,
     "conturiLegate": 1,
-    "piloti": 19
+    "piloti": 20
   }
 }
